@@ -17,8 +17,8 @@ private:
     Money Price=0;
 public:
     explicit Card_Energy(QString name);
-    void SetRent(const std::vector<Money>&RentInput)override{};
-    void SetPrice(const std::vector<Money>&PriceInput)override;
+    void SetRent(const vector<Money>&RentInput)override{};
+    void SetPrice(const vector<Money>&PriceInput)override;
     void SetMortgage(Money m)override;
     Money ReturnCurrentRent(int Status,int Signal)const override;
     Money ReturnCurrentPrice(int Status)const override;

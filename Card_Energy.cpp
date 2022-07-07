@@ -6,7 +6,7 @@
 
 Card_Energy::Card_Energy(QString name): Card_Industry_Abstract(name) {}
 
-void Card_Energy::SetPrice(const std::vector<Money>&PriceInput) {
+void Card_Energy::SetPrice(const vector<Money>&PriceInput) {
     size_t length=PriceInput.size();
     if(length==1){
         this->Price=PriceInput[0];
