@@ -1,0 +1,8 @@
+//
+// Created by Su on 2022/7/6.
+//
+
+#ifndef UMLWORKSHOP_VIEW_ABSTRACT_H
+#define UMLWORKSHOP_VIEW_ABSTRACT_H
+
+#endif //UMLWORKSHOP_VIEW_ABSTRACT_H

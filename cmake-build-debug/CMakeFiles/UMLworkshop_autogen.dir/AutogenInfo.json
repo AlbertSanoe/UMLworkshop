@@ -1,0 +1,195 @@
+{
+	"BUILD_DIR" : "D:/study/Clion_Document/UMLworkshop/cmake-build-debug/UMLworkshop_autogen",
+	"CMAKE_BINARY_DIR" : "D:/study/Clion_Document/UMLworkshop/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/study/Clion_Document/UMLworkshop/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/study/Clion_Document/UMLworkshop",
+	"CMAKE_EXECUTABLE" : "D:/out software/CLion 2021.3.4/bin/cmake/win/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"D:/study/Clion_Document/UMLworkshop/CMakeLists.txt",
+		"D:/study/Clion_Document/UMLworkshop/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake",
+		"D:/study/Clion_Document/UMLworkshop/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake",
+		"D:/study/Clion_Document/UMLworkshop/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake",
+		"D:/study/Clion_Document/UMLworkshop/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseArguments.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"D:/qt/creator/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseArguments.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "D:/study/Clion_Document/UMLworkshop",
+	"DEP_FILE" : "D:/study/Clion_Document/UMLworkshop/cmake-build-debug/UMLworkshop_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "UMLworkshop_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"D:/study/Clion_Document/UMLworkshop/Card_Industry_Abstract.h",
+			"MU",
+			"EWIEGA46WW/moc_Card_Industry_Abstract.cpp",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/Card_RealEstate.h",
+			"MU",
+			"EWIEGA46WW/moc_Card_RealEstate.cpp",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/Factory_Abstract.h",
+			"MU",
+			"EWIEGA46WW/moc_Factory_Abstract.cpp",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/MainWindow.h",
+			"MU",
+			"EWIEGA46WW/moc_MainWindow.cpp",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/Player.h",
+			"MU",
+			"EWIEGA46WW/moc_Player.cpp",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/Square_Abstract.h",
+			"MU",
+			"EWIEGA46WW/moc_Square_Abstract.cpp",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/View_Abstract.h",
+			"MU",
+			"EWIEGA46WW/moc_View_Abstract.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "D:/study/Clion_Document/UMLworkshop/cmake-build-debug/UMLworkshop_autogen/include",
+	"MOC_COMPILATION_FILE" : "D:/study/Clion_Document/UMLworkshop/cmake-build-debug/UMLworkshop_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"D:/qt/creator/5.15.2/mingw81_64/include",
+		"D:/qt/creator/5.15.2/mingw81_64/include/QtCore",
+		"D:/qt/creator/5.15.2/mingw81_64/mkspecs/win32-g++",
+		"D:/qt/creator/5.15.2/mingw81_64/include/QtGui",
+		"D:/qt/creator/5.15.2/mingw81_64/include/QtANGLE",
+		"D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets",
+		"D:/out software/CLion 2021.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++",
+		"D:/out software/CLion 2021.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32",
+		"D:/out software/CLion 2021.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward",
+		"D:/out software/CLion 2021.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include",
+		"D:/out software/CLion 2021.3.4/bin/mingw/include",
+		"D:/out software/CLion 2021.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed",
+		"D:/out software/CLion 2021.3.4/bin/mingw/x86_64-w64-mingw32/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"D:/out software/CLion 2021.3.4/bin/mingw/bin/g++.exe",
+		"-dM",
+		"-E",
+		"-c",
+		"D:/out software/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "D:/study/Clion_Document/UMLworkshop/cmake-build-debug/UMLworkshop_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "D:/study/Clion_Document/UMLworkshop/cmake-build-debug/CMakeFiles/UMLworkshop_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "D:/qt/creator/5.15.2/mingw81_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "D:/qt/creator/5.15.2/mingw81_64/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "D:/study/Clion_Document/UMLworkshop/cmake-build-debug/CMakeFiles/UMLworkshop_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"D:/study/Clion_Document/UMLworkshop/Card_Industry_Abstract.cpp",
+			"MU",
+			null
+		],
+		[ "D:/study/Clion_Document/UMLworkshop/Card_RealEstate.cpp", "MU", null ],
+		[
+			"D:/study/Clion_Document/UMLworkshop/Factroy_Abstract.cpp",
+			"MU",
+			null
+		],
+		[ "D:/study/Clion_Document/UMLworkshop/MainWindow.cpp", "MU", null ],
+		[ "D:/study/Clion_Document/UMLworkshop/Player.cpp", "MU", null ],
+		[ "D:/study/Clion_Document/UMLworkshop/Square_Abstract.cpp", "MU", null ],
+		[ "D:/study/Clion_Document/UMLworkshop/View_Abstract.cpp", "MU", null ],
+		[ "D:/study/Clion_Document/UMLworkshop/main.cpp", "MU", null ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

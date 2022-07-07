@@ -1,0 +1,5 @@
+D:/study/Clion_Document/UMLworkshop/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/study/Clion_Document/UMLworkshop/cmake-build-debug/CMakeFiles/UMLworkshop.dir
+D:/study/Clion_Document/UMLworkshop/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/study/Clion_Document/UMLworkshop/cmake-build-debug/CMakeFiles/UMLworkshop_autogen_timestamp_deps.dir
+D:/study/Clion_Document/UMLworkshop/cmake-build-debug/CMakeFiles/UMLworkshop_autogen.dir

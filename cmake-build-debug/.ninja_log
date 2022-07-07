@@ -1,0 +1,10 @@
+# ninja log v5
+2	1272	6787823866413963	D:/study/Clion_Document/UMLworkshop/cmake-build-debug/UMLworkshop_autogen/mocs_compilation.cpp	630579027da978c2
+2	1272	6787823866413963	UMLworkshop_autogen/timestamp	630579027da978c2
+1288	1375	6787823869590539	CMakeFiles/UMLworkshop.dir/Factroy_Abstract.cpp.obj	52a2e08bd9f16ec2
+2	1272	6787823866413963	UMLworkshop_autogen/mocs_compilation.cpp	630579027da978c2
+2	1272	6787823866413963	D:/study/Clion_Document/UMLworkshop/cmake-build-debug/UMLworkshop_autogen/timestamp	630579027da978c2
+1283	2655	6787823882392754	CMakeFiles/UMLworkshop.dir/UMLworkshop_autogen/mocs_compilation.cpp.obj	c5a0253f2839db67
+1295	2685	6787823882693563	CMakeFiles/UMLworkshop.dir/MainWindow.cpp.obj	a8fcf2edfdb3a265
+1291	2780	6787823883647928	CMakeFiles/UMLworkshop.dir/main.cpp.obj	674cf4e0d23b1ae6
+2780	3142	6787823885418408	UMLworkshop.exe	d823d02797969fb8
