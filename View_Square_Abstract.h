@@ -17,6 +17,7 @@
 class View_Square_Abstract: public QObject, public QGraphicsRectItem{
 private:
     int Position;
+
 public:
     explicit View_Square_Abstract(int position);
     int GetPosition() const;
