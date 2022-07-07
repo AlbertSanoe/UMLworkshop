@@ -10,7 +10,7 @@ void Card_RealEstate::SetColor(Color c){
     this->StreetColor=c;
 }
 
-void Card_RealEstate::SetRent(const std::vector<Money>&RentInput) {
+void Card_RealEstate::SetRent(const vector<Money>&RentInput) {
     size_t length=RentInput.size();
     if(length==7){
         for(int i=0;i<length;i++){
@@ -19,7 +19,7 @@ void Card_RealEstate::SetRent(const std::vector<Money>&RentInput) {
     }
 }
 
-void Card_RealEstate::SetPrice(const std::vector<Money>&PriceInput) {
+void Card_RealEstate::SetPrice(const vector<Money>&PriceInput) {
     size_t length=PriceInput.size();
     if(length==4){
         for(int i=0;i<length;i++){

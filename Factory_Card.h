@@ -29,7 +29,7 @@ public:
     Factory_Card()= default;
 
     static Card_Industry_Abstract *CardInitialize(Card Type, NAME name,
-                                           const std::vector<Money> &RentInput, const std::vector<Money> &PriceInput,Money m);
+                                           const vector<Money> &RentInput, const vector<Money> &PriceInput,Money m);
     static Card_Industry_Abstract*ReturnCard(Card&Type,const Input_Info& Info);
 };
 

@@ -6,7 +6,7 @@
 
 Card_Transport::Card_Transport(QString name):Card_Industry_Abstract(name){}
 
-void Card_Transport::SetRent(const std::vector<Money>&RentInput) {
+void Card_Transport::SetRent(const vector<Money>&RentInput) {
     size_t length=RentInput.size();
     if(length==4){
         for(int i=0;i<length;i++){
@@ -15,7 +15,7 @@ void Card_Transport::SetRent(const std::vector<Money>&RentInput) {
     }
 }
 
-void Card_Transport::SetPrice(const std::vector<Money>&PriceInput) {
+void Card_Transport::SetPrice(const vector<Money>&PriceInput) {
     size_t length=PriceInput.size();
     if(length==1){
         this->Price=PriceInput[0];

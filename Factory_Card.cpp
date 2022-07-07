@@ -4,8 +4,8 @@
 
 #include "Factory_Card.h"
 
-Card_Industry_Abstract*Factory_Card::CardInitialize(Card Type, NAME name, const std::vector<Money> &RentInput,
-                                                    const std::vector<Money> &PriceInput, Money m) {
+Card_Industry_Abstract*Factory_Card::CardInitialize(Card Type, NAME name, const vector<Money> &RentInput,
+                                                    const vector<Money> &PriceInput, Money m) {
     Card_Industry_Abstract* card_ptr;
     switch(Type){
         case card_realEstate:
