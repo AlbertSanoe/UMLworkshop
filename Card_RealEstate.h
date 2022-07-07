@@ -6,7 +6,6 @@
 #define UMLWORKSHOP_CARD_REALESTATE_H
 
 #include "Card_Industry_Abstract.h"
-#include <QString>
 
 #define Color QString
 
@@ -17,6 +16,10 @@
 #define rent_4_houses 4
 #define rent_hotel 5
 #define rent_skyscraper 6
+
+#define signal_basic 0
+#define signal_all_in_one_color 1
+#define signal_all_land 2
 
 #define buy_land 0
 #define buy_house 1
@@ -30,7 +33,7 @@ private:
 
     Color StreetColor;
 
-    Money Rent[7];
+    Money Rent[7]={0};
     Money*Rent_BareGround=&Rent[0];
     Money*Rent_1_House=&Rent[1];
     Money*Rent_2_Houses=&Rent[2];
@@ -39,14 +42,14 @@ private:
     Money*Rent_Hotel=&Rent[5];
     Money*Rent_Skyscraper=&Rent[6];
 
-    Money Purchase[4];
+    Money Purchase[4]={0};
 
     Money*Price_Land=&Purchase[0];
     Money*Price_House=&Purchase[1];
     Money*Price_Hotel=&Purchase[2];
     Money*Price_Skyscraper=&Purchase[3];
 
-    Money Land_Mortgage_Value;
+    Money Land_Mortgage_Value=0;
 public:
     explicit Card_RealEstate(QString name);
 
@@ -56,9 +59,9 @@ public:
     void SetMortgage(Money M);
 
     Color ReturnColor()const;
-    Money ReturnCurrentRent(int Status)const override;
+    Money ReturnCurrentRent(int Status,int Signal)const override;
     Money ReturnCurrentPrice(int Status)const override;
-    Money ReturnMortgage()const;
+    Money ReturnMortgage()const override;
 };
 
 

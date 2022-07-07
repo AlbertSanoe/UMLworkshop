@@ -3,6 +3,7 @@
 //
 
 #include "Card_RealEstate.h"
+
 Card_RealEstate::Card_RealEstate(QString name) : Card_Industry_Abstract(name) {}
 
 void Card_RealEstate::SetColor(Color c){
@@ -34,7 +35,7 @@ Color Card_RealEstate::ReturnColor()const {
     return this->StreetColor;
 }
 
-Money Card_RealEstate::ReturnCurrentRent(int Status) const{
+Money Card_RealEstate::ReturnCurrentRent(int Status,int Signal) const{
     Money*money;
     switch(Status){
         case rent_bareGround:
@@ -57,6 +58,18 @@ Money Card_RealEstate::ReturnCurrentRent(int Status) const{
             break;
         case rent_skyscraper:
             money=this->Rent_Skyscraper;
+            break;
+        default:
+            return 0;
+    }
+    switch(Signal){
+        case signal_basic:
+            break;
+        case signal_all_in_one_color:
+            *money=2*(*money);
+            break;
+        case signal_all_land:
+            *money=3*(*money);
             break;
         default:
             return 0;
