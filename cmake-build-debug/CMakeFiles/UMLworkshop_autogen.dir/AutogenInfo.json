@@ -131,6 +131,12 @@
 			null
 		],
 		[
+			"D:/study/Clion_Document/UMLworkshop/View_Player.h",
+			"MU",
+			"EWIEGA46WW/moc_View_Player.cpp",
+			null
+		],
+		[
 			"D:/study/Clion_Document/UMLworkshop/View_Square_Abstract.h",
 			"MU",
 			"EWIEGA46WW/moc_View_Square_Abstract.cpp",
@@ -253,6 +259,7 @@
 		[ "D:/study/Clion_Document/UMLworkshop/MainWindow.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/Player.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/View_Abstract.cpp", "MU", null ],
+		[ "D:/study/Clion_Document/UMLworkshop/View_Player.cpp", "MU", null ],
 		[
 			"D:/study/Clion_Document/UMLworkshop/View_Square_Abstract.cpp",
 			"MU",
