@@ -1,0 +1,5 @@
+D:/Study/Monopoly/UMLworkshop/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+D:/Study/Monopoly/UMLworkshop/out/build/x64-Debug/CMakeFiles/UMLworkshop.dir
+D:/Study/Monopoly/UMLworkshop/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+D:/Study/Monopoly/UMLworkshop/out/build/x64-Debug/CMakeFiles/UMLworkshop_autogen_timestamp_deps.dir
+D:/Study/Monopoly/UMLworkshop/out/build/x64-Debug/CMakeFiles/UMLworkshop_autogen.dir

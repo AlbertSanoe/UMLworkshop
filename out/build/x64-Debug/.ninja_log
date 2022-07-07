@@ -1,0 +1,14 @@
+# ninja log v5
+3	893	6788949905591423	UMLworkshop_autogen/timestamp	d07d44de608d9575
+893	1119	6788949909008100	CMakeFiles/UMLworkshop.dir/Factory_Abstract.cpp.obj	8b0d1f14176eb5d4
+961	1139	6788949909107839	CMakeFiles/UMLworkshop.dir/View_Abstract.cpp.obj	d399f1d2b4b2ec7e
+937	1195	6788949909805971	CMakeFiles/UMLworkshop.dir/Square_Abstract.cpp.obj	20dbf50484db8a51
+1140	2117	6788949918966558	CMakeFiles/UMLworkshop.dir/Factory_Card.cpp.obj	6075b864b043ae66
+1121	2130	6788949919126128	CMakeFiles/UMLworkshop.dir/Card_Energy.cpp.obj	731b58a07a7391a
+953	2131	6788949919116157	CMakeFiles/UMLworkshop.dir/Card_Industry_Abstract.cpp.obj	7b828326b0084dfb
+916	2132	6788949918976527	CMakeFiles/UMLworkshop.dir/Player.cpp.obj	6d4956fb821c8de7
+945	2133	6788949919126128	CMakeFiles/UMLworkshop.dir/Card_Transport.cpp.obj	bc3db7d598381867
+930	2158	6788949919146079	CMakeFiles/UMLworkshop.dir/Card_RealEstate.cpp.obj	627ab693fc569536
+902	2476	6788949922637916	CMakeFiles/UMLworkshop.dir/UMLworkshop_autogen/mocs_compilation.cpp.obj	6bbc361c2afbecac
+923	2479	6788949922647897	CMakeFiles/UMLworkshop.dir/MainWindow.cpp.obj	11de300bc95c7653
+910	2597	6788949923862769	CMakeFiles/UMLworkshop.dir/main.cpp.obj	93e32f770938c899
