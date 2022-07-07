@@ -1,0 +1,8 @@
+//
+// Created by Su on 2022/7/7.
+//
+
+#ifndef UMLWORKSHOP_FACTORY_CARD_H
+#define UMLWORKSHOP_FACTORY_CARD_H
+
+#endif //UMLWORKSHOP_FACTORY_CARD_H

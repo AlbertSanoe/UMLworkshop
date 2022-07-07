@@ -107,6 +107,12 @@
 			null
 		],
 		[
+			"D:/study/Clion_Document/UMLworkshop/Factory_Card.h",
+			"MU",
+			"EWIEGA46WW/moc_Factory_Card.cpp",
+			null
+		],
+		[
 			"D:/study/Clion_Document/UMLworkshop/MainWindow.h",
 			"MU",
 			"EWIEGA46WW/moc_MainWindow.cpp",
@@ -190,6 +196,7 @@
 		],
 		[ "D:/study/Clion_Document/UMLworkshop/Card_RealEstate.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/Card_Transport.cpp", "MU", null ],
+		[ "D:/study/Clion_Document/UMLworkshop/Factory_Card.cpp", "MU", null ],
 		[
 			"D:/study/Clion_Document/UMLworkshop/Factroy_Abstract.cpp",
 			"MU",
