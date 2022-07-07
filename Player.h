@@ -17,11 +17,14 @@ typedef bool PrisonState;
 #define Prison_In true
 #define Prison_Not_In false
 
+#define Increase_Money true
+#define Decrease_Money false
+
 class Player{
 private:
     Money Cash;
     GameState Game_State=Game_In;
-    PrisonState In_Prison=Prison_Not_In;
+    PrisonState Prison_State=Prison_Not_In;
 public:
     Player(Money cash);
     void SetGameState(GameState state);
