@@ -7,11 +7,28 @@
 
 #include <QString>
 
+typedef int Money;
+typedef bool GameState;
+typedef bool PrisonState;
+
+#define Game_In true
+#define Game_Over false
+
+#define Prison_In true
+#define Prison_Not_In false
+
 class Player{
 private:
-    QString Name;
-    int Cash;
-    bool State;
-
+    Money Cash;
+    GameState Game_State=Game_In;
+    PrisonState In_Prison=Prison_Not_In;
+public:
+    Player(Money cash);
+    void SetGameState(GameState state);
+    void SetPrisonState(PrisonState state);
+    void SetCash(Money m,bool setState);
+    GameState ReturnGameState()const;
+    PrisonState ReturnPrisonState()const;
+    Money ReturnCurrentMoney()const;
 };
 #endif //UMLWORKSHOP_PLAYER_H
