@@ -9,7 +9,6 @@
 #include <QString>
 
 #define Color QString
-#define Money int
 
 #define rent_bareGround 0
 #define rent_1_house 1
@@ -57,8 +56,8 @@ public:
     void SetMortgage(Money M);
 
     Color ReturnColor()const;
-    Money ReturnCurrentRent(int Status)const;
-    Money ReturnCurrentPrice(int Status)const;
+    Money ReturnCurrentRent(int Status)const override;
+    Money ReturnCurrentPrice(int Status)const override;
     Money ReturnMortgage()const;
 };
 
