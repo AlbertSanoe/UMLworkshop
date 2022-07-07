@@ -196,12 +196,12 @@
 		],
 		[ "D:/study/Clion_Document/UMLworkshop/Card_RealEstate.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/Card_Transport.cpp", "MU", null ],
-		[ "D:/study/Clion_Document/UMLworkshop/Factory_Card.cpp", "MU", null ],
 		[
-			"D:/study/Clion_Document/UMLworkshop/Factroy_Abstract.cpp",
+			"D:/study/Clion_Document/UMLworkshop/Factory_Abstract.cpp",
 			"MU",
 			null
 		],
+		[ "D:/study/Clion_Document/UMLworkshop/Factory_Card.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/MainWindow.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/Player.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/Square_Abstract.cpp", "MU", null ],

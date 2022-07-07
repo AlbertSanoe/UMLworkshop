@@ -26,9 +26,9 @@ private:
     Money Land_Mortgage_Value=0;
 public:
     explicit Card_Transport(QString name);
-    void SetRent(Money r1,Money r2,Money r3,Money r4);
-    void SetPrice(Money p);
-    void SetMortgage(Money m);
+    void SetRent(const std::vector<Money>&RentInput)override;
+    void SetPrice(const std::vector<Money>&PriceInput)override;
+    void SetMortgage(Money m)override;
     Money ReturnCurrentRent(int Status,int Signal)const override;
     Money ReturnCurrentPrice(int Status)const override;
     Money ReturnMortgage()const override;

@@ -5,3 +5,7 @@
 #include "Factory_Card.h"
 
 
+
+Card_Industry_Abstract*Factory_Card::ReturnCard(Card Type,) {
+
+}

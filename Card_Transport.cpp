@@ -6,15 +6,20 @@
 
 Card_Transport::Card_Transport(QString name):Card_Industry_Abstract(name){}
 
-void Card_Transport::SetRent(Money r1, Money r2, Money r3, Money r4) {
-    this->Rent[0]=r1;
-    this->Rent[1]=r2;
-    this->Rent[2]=r3;
-    this->Rent[3]=r4;
+void Card_Transport::SetRent(const std::vector<Money>&RentInput) {
+    size_t length=RentInput.size();
+    if(length==4){
+        for(int i=0;i<length;i++){
+            this->Rent[i]=RentInput[i];
+        }
+    }
 }
 
-void Card_Transport::SetPrice(int p) {
-    this->Price=p;
+void Card_Transport::SetPrice(const std::vector<Money>&PriceInput) {
+    size_t length=PriceInput.size();
+    if(length==1){
+        this->Price=PriceInput[0];
+    }
 }
 
 void Card_Transport::SetMortgage(int m) {

@@ -10,21 +10,22 @@ void Card_RealEstate::SetColor(Color c){
     this->StreetColor=c;
 }
 
-void Card_RealEstate::SetRent(int r1, int r2, int r3, int r4, int r5, int r6, int r7) {
-    this->Rent[0]=r1;
-    this->Rent[1]=r2;
-    this->Rent[2]=r3;
-    this->Rent[3]=r4;
-    this->Rent[4]=r5;
-    this->Rent[5]=r6;
-    this->Rent[6]=r7;
+void Card_RealEstate::SetRent(const std::vector<Money>&RentInput) {
+    size_t length=RentInput.size();
+    if(length==7){
+        for(int i=0;i<length;i++){
+            this->Rent[i]=RentInput[i];
+        }
+    }
 }
 
-void Card_RealEstate::SetPurchase(int p1, int p2, int p3, int p4) {
-    this->Purchase[0]=p1;
-    this->Purchase[1]=p2;
-    this->Purchase[2]=p3;
-    this->Purchase[3]=p4;
+void Card_RealEstate::SetPrice(const std::vector<Money>&PriceInput) {
+    size_t length=PriceInput.size();
+    if(length==4){
+        for(int i=0;i<length;i++){
+            this->Purchase[i]=PriceInput[i];
+        }
+    }
 }
 
 void Card_RealEstate::SetMortgage(int M) {

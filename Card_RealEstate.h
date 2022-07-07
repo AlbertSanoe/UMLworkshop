@@ -54,9 +54,9 @@ public:
     explicit Card_RealEstate(QString name);
 
     void SetColor(Color c);
-    void SetRent(Money r1,Money r2,Money r3,Money r4,Money r5,Money r6,Money r7);
-    void SetPurchase(Money p1,Money p2,Money p3,Money p4);
-    void SetMortgage(Money M);
+    void SetRent(const std::vector<Money>&RentInput)override;
+    void SetPrice(const std::vector<Money>&PriceInput)override;
+    void SetMortgage(Money M)override;
 
     Color ReturnColor()const;
     Money ReturnCurrentRent(int Status,int Signal)const override;
