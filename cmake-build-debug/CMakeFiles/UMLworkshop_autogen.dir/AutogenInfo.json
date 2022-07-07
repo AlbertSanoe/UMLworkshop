@@ -125,15 +125,63 @@
 			null
 		],
 		[
-			"D:/study/Clion_Document/UMLworkshop/Square_Abstract.h",
-			"MU",
-			"EWIEGA46WW/moc_Square_Abstract.cpp",
-			null
-		],
-		[
 			"D:/study/Clion_Document/UMLworkshop/View_Abstract.h",
 			"MU",
 			"EWIEGA46WW/moc_View_Abstract.cpp",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/View_Square_Abstract.h",
+			"MU",
+			"EWIEGA46WW/moc_View_Square_Abstract.cpp",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/View_Square_Energy.h",
+			"MU",
+			"EWIEGA46WW/moc_View_Square_Energy.cpp",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/View_Square_Idle.h",
+			"MU",
+			"EWIEGA46WW/moc_View_Square_Idle.cpp",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/View_Square_Prison.h",
+			"MU",
+			"EWIEGA46WW/moc_View_Square_Prison.cpp",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/View_Square_RealEstate.h",
+			"MU",
+			"EWIEGA46WW/moc_View_Square_RealEstate.cpp",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/View_Square_Start.h",
+			"MU",
+			"EWIEGA46WW/moc_View_Square_Start.cpp",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/View_Square_Tax.h",
+			"MU",
+			"EWIEGA46WW/moc_View_Square_Tax.cpp",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/View_Square_Transport.h",
+			"MU",
+			"EWIEGA46WW/moc_View_Square_Transport.cpp",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/View_Square_Treasure_Chance.h",
+			"MU",
+			"EWIEGA46WW/moc_View_Square_Treasure_Chance.cpp",
 			null
 		]
 	],
@@ -204,8 +252,48 @@
 		[ "D:/study/Clion_Document/UMLworkshop/Factory_Card.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/MainWindow.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/Player.cpp", "MU", null ],
-		[ "D:/study/Clion_Document/UMLworkshop/Square_Abstract.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/View_Abstract.cpp", "MU", null ],
+		[
+			"D:/study/Clion_Document/UMLworkshop/View_Square_Abstract.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/View_Square_Energy.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/View_Square_Idle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/View_Square_Prison.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/View_Square_RealEstate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/View_Square_Start.cpp",
+			"MU",
+			null
+		],
+		[ "D:/study/Clion_Document/UMLworkshop/View_Square_Tax.cpp", "MU", null ],
+		[
+			"D:/study/Clion_Document/UMLworkshop/View_Square_Transport.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/View_Square_Treasure_Chance.cpp",
+			"MU",
+			null
+		],
 		[ "D:/study/Clion_Document/UMLworkshop/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

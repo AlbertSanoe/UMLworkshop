@@ -4,7 +4,7 @@
 
 #include "View_Square_Abstract.h"
 
-View_Square_Abstract::View_Square_Abstract(int position): Position(position){}
+View_Square_Abstract::View_Square_Abstract(int position,QGraphicsItem* parent): Position(position){}
 
 int View_Square_Abstract::GetPosition() const{
     return this->Position;
