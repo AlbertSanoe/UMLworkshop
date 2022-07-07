@@ -12,21 +12,25 @@
 
 #include<QString>
 #include<QStringList>
+#include<QFile>
 
 typedef QString NAME;
 typedef QString MONEY;
-typedef QStringList Input_Info
+typedef QString Input_Info;
 
-#define Card_RealEstate 0
-#define Card_Transport 1
-#define Card_Energy 2
+#define card_realEstate 0
+#define card_transport 1
+#define card_energy 2
 
 typedef int Card;
 
 class Factory_Card{
-private:
+public:
     Factory_Card()= default;
-    Card_Industry_Abstract*ReturnCard(Card Type,NAME n,);
+
+    static Card_Industry_Abstract *CardInitialize(Card Type, NAME name,
+                                           const std::vector<Money> &RentInput, const std::vector<Money> &PriceInput,Money m);
+    static Card_Industry_Abstract*ReturnCard(Card&Type,const Input_Info& Info);
 };
 
 #endif //UMLWORKSHOP_FACTORY_CARD_H
