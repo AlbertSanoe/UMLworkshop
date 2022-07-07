@@ -1,14 +1,17 @@
 # ninja log v5
-3	893	6788949905591423	UMLworkshop_autogen/timestamp	d07d44de608d9575
-893	1119	6788949909008100	CMakeFiles/UMLworkshop.dir/Factory_Abstract.cpp.obj	8b0d1f14176eb5d4
-961	1139	6788949909107839	CMakeFiles/UMLworkshop.dir/View_Abstract.cpp.obj	d399f1d2b4b2ec7e
+9	812	6789066014046375	UMLworkshop_autogen/timestamp	d07d44de608d9575
 937	1195	6788949909805971	CMakeFiles/UMLworkshop.dir/Square_Abstract.cpp.obj	20dbf50484db8a51
-1140	2117	6788949918966558	CMakeFiles/UMLworkshop.dir/Factory_Card.cpp.obj	6075b864b043ae66
-1121	2130	6788949919126128	CMakeFiles/UMLworkshop.dir/Card_Energy.cpp.obj	731b58a07a7391a
-953	2131	6788949919116157	CMakeFiles/UMLworkshop.dir/Card_Industry_Abstract.cpp.obj	7b828326b0084dfb
-916	2132	6788949918976527	CMakeFiles/UMLworkshop.dir/Player.cpp.obj	6d4956fb821c8de7
-945	2133	6788949919126128	CMakeFiles/UMLworkshop.dir/Card_Transport.cpp.obj	bc3db7d598381867
-930	2158	6788949919146079	CMakeFiles/UMLworkshop.dir/Card_RealEstate.cpp.obj	627ab693fc569536
-902	2476	6788949922637916	CMakeFiles/UMLworkshop.dir/UMLworkshop_autogen/mocs_compilation.cpp.obj	6bbc361c2afbecac
 923	2479	6788949922647897	CMakeFiles/UMLworkshop.dir/MainWindow.cpp.obj	11de300bc95c7653
+893	1119	6788949909008100	CMakeFiles/UMLworkshop.dir/Factory_Abstract.cpp.obj	8b0d1f14176eb5d4
+916	2755	6789066034350336	CMakeFiles/UMLworkshop.dir/Factory_Card.cpp.obj	6075b864b043ae66
+961	1139	6788949909107839	CMakeFiles/UMLworkshop.dir/View_Abstract.cpp.obj	d399f1d2b4b2ec7e
+870	2273	6789066029808024	CMakeFiles/UMLworkshop.dir/Card_Energy.cpp.obj	731b58a07a7391a
+318	2191	6789066029337720	CMakeFiles/UMLworkshop.dir/Card_Industry_Abstract.cpp.obj	7b828326b0084dfb
+916	2132	6788949918976527	CMakeFiles/UMLworkshop.dir/Player.cpp.obj	6d4956fb821c8de7
+852	2222	6789066029357663	CMakeFiles/UMLworkshop.dir/Card_Transport.cpp.obj	bc3db7d598381867
+835	2425	6789066031259755	CMakeFiles/UMLworkshop.dir/Card_RealEstate.cpp.obj	627ab693fc569536
+309	2933	6789066036839818	CMakeFiles/UMLworkshop.dir/View_Square_Abstract.cpp.obj	5895e8681d022098
+813	2864	6789066035696733	CMakeFiles/UMLworkshop.dir/UMLworkshop_autogen/mocs_compilation.cpp.obj	6bbc361c2afbecac
 910	2597	6788949923862769	CMakeFiles/UMLworkshop.dir/main.cpp.obj	93e32f770938c899
+70	924	6789066014774423	lotteryTicket_autogen/timestamp	e7e756261fc6ee6a
+266	1481	6789066021946963	CMakeFiles/lotteryTicket.dir/lotteryTicket_autogen/mocs_compilation.cpp.obj	c504d8f1de808c66

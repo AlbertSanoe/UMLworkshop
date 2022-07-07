@@ -1,6 +1,23 @@
 cmake_minimum_required(VERSION 3.20)
 project(UMLworkshop)
 
+set(SOURCE_LIST
+"Card_Energy.cpp"
+"Card_Energy.h"
+"Card_Industry_Abstract.cpp"
+"Card_Industry_Abstract.h"
+"Card_RealEstate.cpp"
+"Card_RealEstate.h"
+"Card_Transport.cpp"
+"Card_Transport.h"
+)
+ 
+add_executable(lotteryTicket ${SOURCE_LIST})
+ 
+# Create the source groups for source tree with root at CMAKE_CURRENT_SOURCE_DIR.
+source_group(TREE ${CMAKE_CURRENT_SOURCE_DIR} FILES ${SOURCE_LIST})
+
+
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
@@ -46,3 +63,4 @@ if (WIN32)
                 "$<TARGET_FILE_DIR:${PROJECT_NAME}>")
     endforeach (QT_LIB)
 endif ()
+
