@@ -14,7 +14,7 @@ find_package(Qt5 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(UMLworkshop main.cpp Factory_Abstract.h Factroy_Abstract.cpp MainWindow.h MainWindow.cpp Square_Abstract.h Square_Abstract.cpp Player.cpp Player.h Card_RealEstate.cpp Card_RealEstate.h Card_Industry_Abstract.cpp Card_Industry_Abstract.h View_Abstract.cpp View_Abstract.h Card_Transport.cpp Card_Transport.h Card_Energy.cpp Card_Energy.h Factory_Card.cpp Factory_Card.h)
+add_executable(UMLworkshop main.cpp Factory_Abstract.h Factory_Abstract.cpp MainWindow.h MainWindow.cpp Square_Abstract.h Square_Abstract.cpp Player.cpp Player.h Card_RealEstate.cpp Card_RealEstate.h Card_Industry_Abstract.cpp Card_Industry_Abstract.h View_Abstract.cpp View_Abstract.h Card_Transport.cpp Card_Transport.h Card_Energy.cpp Card_Energy.h Factory_Card.cpp Factory_Card.h)
 target_link_libraries(UMLworkshop
         Qt5::Core
         Qt5::Gui

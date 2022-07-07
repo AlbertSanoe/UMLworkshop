@@ -6,7 +6,9 @@
 #define UMLWORKSHOP_CARD_INDUSTRY_ABSTRACT_H
 
 #include <QString>
-#define Money int
+
+typedef int Money;
+
 class Card_Industry_Abstract{
 private:
     QString Name;

@@ -4,6 +4,7 @@
 
 #ifndef UMLWORKSHOP_CARD_TRANSPORT_H
 #define UMLWORKSHOP_CARD_TRANSPORT_H
+
 #include"Card_Industry_Abstract.h"
 
 #define has_1_gare 0

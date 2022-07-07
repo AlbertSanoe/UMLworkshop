@@ -7,7 +7,7 @@
 
 #include "Card_Industry_Abstract.h"
 
-#define Color QString
+typedef QString Color;
 
 #define rent_bareGround 0
 #define rent_1_house 1
