@@ -19,7 +19,7 @@ private:
     int Position;
 
 public:
-    explicit View_Square_Abstract(int position);
+    explicit View_Square_Abstract(int position,QGraphicsItem* parent = NULL);
     int GetPosition() const;
     virtual void DrawPicture(int Status)=0;
 };
