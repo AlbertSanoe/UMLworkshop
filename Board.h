@@ -16,6 +16,7 @@ private:
     QList<Card_Abstract*>Chance_Card={};
     QList<Card_Abstract*>CommunityChest_Card={};
 
+    //shuffle the cards is necessary
 
     void Set_RealEstate_Card_List();
     void Set_Transport_Card_List();
