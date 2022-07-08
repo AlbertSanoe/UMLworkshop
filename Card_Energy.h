@@ -14,6 +14,7 @@
 class Card_Energy:public Card_Industry_Abstract{
 private:
     Money Land_Mortgage_Value=0;
+    Money MortgagePayback=0;
     Money Price=0;
 public:
     explicit Card_Energy(QString name);
@@ -23,6 +24,7 @@ public:
     Money ReturnCurrentRent(int Status,int Signal)const override;
     Money ReturnCurrentPrice(int Status)const override;
     Money ReturnMortgage()const override;
+    Money ReturnMortgagePayback() const override;
 };
 
 #endif //UMLWORKSHOP_CARD_ENERGY_H

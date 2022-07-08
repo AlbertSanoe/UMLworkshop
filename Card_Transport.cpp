@@ -22,8 +22,9 @@ void Card_Transport::SetPrice(const vector<Money>&PriceInput) {
     }
 }
 
-void Card_Transport::SetMortgage(int m) {
+void Card_Transport::SetMortgage(Money m) {
     this->Land_Mortgage_Value=m;
+    this->MortgagePayback=m*1.1;
 }
 
 Money Card_Transport::ReturnCurrentRent(int Status, int Signal) const {
@@ -62,4 +63,8 @@ Money Card_Transport::ReturnCurrentPrice(int Status) const {
 
 Money Card_Transport::ReturnMortgage() const {
     return this->Land_Mortgage_Value;
+}
+
+Money Card_Transport::ReturnMortgagePayback() const {
+    return this->MortgagePayback;
 }

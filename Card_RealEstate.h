@@ -50,6 +50,7 @@ private:
     Money*Price_Skyscraper=&Purchase[3];
 
     Money Land_Mortgage_Value=0;
+    Money MortgagePayback=0;
 public:
     explicit Card_RealEstate(QString name);
 
@@ -62,6 +63,7 @@ public:
     Money ReturnCurrentRent(int Status,int Signal)const override;
     Money ReturnCurrentPrice(int Status)const override;
     Money ReturnMortgage()const override;
+    Money ReturnMortgagePayback()const override;
 };
 
 

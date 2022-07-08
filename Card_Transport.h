@@ -24,6 +24,7 @@ private:
     Money* Has_Four_Gare=&Rent[3];
     Money Price=0;
     Money Land_Mortgage_Value=0;
+    Money MortgagePayback=0;
 public:
     explicit Card_Transport(QString name);
     void SetRent(const vector<Money>&RentInput)override;
@@ -32,6 +33,7 @@ public:
     Money ReturnCurrentRent(int Status,int Signal)const override;
     Money ReturnCurrentPrice(int Status)const override;
     Money ReturnMortgage()const override;
+    Money ReturnMortgagePayback()const override;
 };
 
 

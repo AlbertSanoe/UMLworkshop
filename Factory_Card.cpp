@@ -4,11 +4,12 @@
 
 #include "Factory_Card.h"
 
-Card_Industry_Abstract*Factory_Card::CardInitialize(Card Type, NAME name, const vector<Money> &RentInput,
-                                                    const vector<Money> &PriceInput, Money m) {
+Card_Industry_Abstract*Factory_Card::CardInitialize(Card Type, const Input_Info&Info) {
+    QStringList DataList=Info.split(" ");
     Card_Industry_Abstract* card_ptr;
     switch(Type){
         case card_realEstate:
+            QString name=DataList[];
             card_ptr=new Card_RealEstate(name);
             card_ptr->SetRent(RentInput);
             card_ptr->SetPrice(PriceInput);
@@ -21,7 +22,7 @@ Card_Industry_Abstract*Factory_Card::CardInitialize(Card Type, NAME name, const 
             card_ptr->SetMortgage(m);
         case card_energy:
             card_ptr=new Card_Energy(name);
-            card_ptr->SetRent(RentInput);
+            //card_ptr->SetRent(RentInput);
             card_ptr->SetPrice(PriceInput);
             card_ptr->SetMortgage(m);
         default:
@@ -30,6 +31,3 @@ Card_Industry_Abstract*Factory_Card::CardInitialize(Card Type, NAME name, const 
     return card_ptr;
 }
 
-Card_Industry_Abstract* Factory_Card::ReturnCard(Card&Type,const Input_Info& Info) {
-    return nullptr;
-}

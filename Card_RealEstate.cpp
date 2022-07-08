@@ -28,8 +28,9 @@ void Card_RealEstate::SetPrice(const vector<Money>&PriceInput) {
     }
 }
 
-void Card_RealEstate::SetMortgage(int M) {
+void Card_RealEstate::SetMortgage(Money M) {
     this->Land_Mortgage_Value=M;
+    this->MortgagePayback=M*1.1;
 }
 
 Color Card_RealEstate::ReturnColor()const {
@@ -101,4 +102,8 @@ Money Card_RealEstate::ReturnCurrentPrice(int Status) const{
 
 Money Card_RealEstate::ReturnMortgage()const {
     return this->Land_Mortgage_Value;
+}
+
+Money Card_RealEstate::ReturnMortgagePayback() const {
+    return this->MortgagePayback;
 }

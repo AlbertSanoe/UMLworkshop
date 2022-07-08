@@ -15,6 +15,7 @@ void Card_Energy::SetPrice(const vector<Money>&PriceInput) {
 
 void Card_Energy::SetMortgage(Money m) {
     this->Land_Mortgage_Value=m;
+    this->MortgagePayback=m*1.1;
 }
 
 Money Card_Energy::ReturnCurrentRent(int Status,int Signal)const{
@@ -41,4 +42,8 @@ Money Card_Energy::ReturnCurrentPrice(int Status) const {
 
 Money Card_Energy::ReturnMortgage() const {
     return this->Land_Mortgage_Value;
+}
+
+Money Card_Energy::ReturnMortgagePayback() const {
+    return this->MortgagePayback;
 }
