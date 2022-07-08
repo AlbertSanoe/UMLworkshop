@@ -9,6 +9,7 @@
 #include"Card_RealEstate.h"
 #include"Card_Transport.h"
 #include"Card_Energy.h"
+#include"Card_Action.h"
 
 #include<QString>
 #include<QStringList>

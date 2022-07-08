@@ -77,6 +77,12 @@
 	"HEADERS" : 
 	[
 		[
+			"D:/study/Clion_Document/UMLworkshop/Board.h",
+			"MU",
+			"EWIEGA46WW/moc_Board.cpp",
+			null
+		],
+		[
 			"D:/study/Clion_Document/UMLworkshop/Card_Abstract.h",
 			"MU",
 			"EWIEGA46WW/moc_Card_Abstract.cpp",
@@ -104,6 +110,12 @@
 			"D:/study/Clion_Document/UMLworkshop/Card_Transport.h",
 			"MU",
 			"EWIEGA46WW/moc_Card_Transport.cpp",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/Controller_Object.h",
+			"MU",
+			"EWIEGA46WW/moc_Controller_Object.cpp",
 			null
 		],
 		[
@@ -260,11 +272,17 @@
 	"SETTINGS_FILE" : "D:/study/Clion_Document/UMLworkshop/cmake-build-debug/CMakeFiles/UMLworkshop_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "D:/study/Clion_Document/UMLworkshop/Board.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/Card_Abstract.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/Card_Action.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/Card_Energy.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/Card_RealEstate.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/Card_Transport.cpp", "MU", null ],
+		[
+			"D:/study/Clion_Document/UMLworkshop/Controller_Object.cpp",
+			"MU",
+			null
+		],
 		[
 			"D:/study/Clion_Document/UMLworkshop/Factory_Abstract.cpp",
 			"MU",
