@@ -40,39 +40,48 @@ Color Card_RealEstate::ReturnColor()const {
 Money Card_RealEstate::ReturnCurrentRent(int Status,int Signal) const{
     Money*money;
     switch(Status){
-        case rent_bareGround:
+        case rent_bareGround:{
             money=this->Rent_BareGround;
             break;
-        case rent_1_house:
+        }
+        case rent_1_house:{
             money=this->Rent_1_House;
             break;
-        case rent_2_houses:
+        }
+        case rent_2_houses:{
             money=this->Rent_2_Houses;
             break;
-        case rent_3_houses:
+        }
+        case rent_3_houses:{
             money=this->Rent_3_Houses;
             break;
-        case rent_4_houses:
+        }
+        case rent_4_houses:{
             money=this->Rent_4_Houses;
             break;
-        case rent_hotel:
+        }
+        case rent_hotel:{
             money=this->Rent_Hotel;
             break;
-        case rent_skyscraper:
+        }
+        case rent_skyscraper:{
             money=this->Rent_Skyscraper;
             break;
+        }
         default:
             return 0;
     }
     switch(Signal){
         case signal_basic:
             break;
-        case signal_all_in_one_color:
+        case signal_all_in_one_color:{
             *money=2*(*money);
             break;
-        case signal_all_land:
+        }
+        case signal_all_land:{
             *money=3*(*money);
             break;
+        }
         default:
             return 0;
     }
@@ -82,18 +91,22 @@ Money Card_RealEstate::ReturnCurrentRent(int Status,int Signal) const{
 Money Card_RealEstate::ReturnCurrentPrice(int Status) const{
     Money*money;
     switch(Status){
-        case buy_land:
+        case buy_land:{
             money=this->Price_Land;
             break;
-        case buy_house:
+        }
+        case buy_house:{
             money=this->Price_House;
             break;
-        case buy_hotel:
+        }
+        case buy_hotel:{
             money=this->Price_Hotel;
             break;
-        case buy_skyscraper:
+        }
+        case buy_skyscraper:{
             money=this->Price_Skyscraper;
             break;
+        }
         default:
             return 0;
     }

@@ -27,8 +27,7 @@ typedef int Card;
 class Factory_Card{
 public:
     Factory_Card()= default;
-
-    static Card_Industry_Abstract *CardInitialize(Card Type, const Input_Info&Info);
+    static Card_Industry_Abstract *ReturnCard(Card Type, const Input_Info&Info);
 };
 
 #endif //UMLWORKSHOP_FACTORY_CARD_H

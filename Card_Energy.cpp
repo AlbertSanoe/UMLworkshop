@@ -21,15 +21,18 @@ void Card_Energy::SetMortgage(Money m) {
 Money Card_Energy::ReturnCurrentRent(int Status,int Signal)const{
     auto money=(Money)Signal;
     switch(Status){
-        case One_Company:
+        case One_Company:{
             money=4*money;
             break;
-        case Two_Company:
+        }
+        case Two_Company:{
             money=10*money;
             break;
-        case Three_Company:
+        }
+        case Three_Company:{
             money=20*money;
             break;
+        }
         default:
             return 0;
     }

@@ -30,27 +30,32 @@ void Card_Transport::SetMortgage(Money m) {
 Money Card_Transport::ReturnCurrentRent(int Status, int Signal) const {
     Money *money;
     switch(Status){
-        case has_1_gare:
+        case has_1_gare:{
             money=this->Has_One_Gare;
             break;
-        case has_2_gare:
+        }
+        case has_2_gare:{
             money=this->Has_Two_Gare;
             break;
-        case has_3_gare:
+        }
+        case has_3_gare:{
             money=this->Has_Three_Gare;
             break;
-        case has_4_gare:
+        }
+        case has_4_gare:{
             money=this->Has_Four_Gare;
             break;
+        }
         default:
             return 0;
     }
     switch(Signal){
         case Signal_Basic:
             break;
-        case Signal_Upgrade:
+        case Signal_Upgrade:{
             *money=2*(*money);
             break;
+        }
         default:
             return 0;
     }
