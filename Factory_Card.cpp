@@ -4,9 +4,9 @@
 
 #include "Factory_Card.h"
 
-Card_Industry_Abstract*Factory_Card::ReturnCard(Card Type, const Input_Info&Info) {
+Card_Abstract*Factory_Card::ReturnCard(Card Type, const Input_Info&Info) {
     QStringList DataList=Info.split(" ");
-    Card_Industry_Abstract* card_ptr;
+    Card_Abstract* card_ptr;
     switch(Type){
         case card_realEstate:{
             QString name = DataList[10] + " " + DataList[11];
@@ -43,6 +43,19 @@ Card_Industry_Abstract*Factory_Card::ReturnCard(Card Type, const Input_Info&Info
             //card_ptr->SetRent(RentInput);
             card_ptr->SetPrice(Price);
             card_ptr->SetMortgage(Mortgage);
+        }
+        case card_action:{
+            auto actionType = (ActionType) DataList[0].toInt();
+            int actionValue = DataList[1].toInt();
+            QString text;
+            for (int i = 2; i < DataList.length(); i++)
+            {
+                text += DataList[i] + " ";
+            }
+            text = text.trimmed();
+            card_ptr=new Card_Abstract(text);
+            card_ptr->SetActionType(actionType);
+            card_ptr->SetActionValue(actionValue);
         }
         default:
             return nullptr;

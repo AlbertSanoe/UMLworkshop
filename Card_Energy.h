@@ -5,13 +5,13 @@
 #ifndef UMLWORKSHOP_CARD_ENERGY_H
 #define UMLWORKSHOP_CARD_ENERGY_H
 
-#include "Card_Industry_Abstract.h"
+#include "Card_Abstract.h"
 
 #define One_Company 0
 #define Two_Company 1
 #define Three_Company 2
 
-class Card_Energy:public Card_Industry_Abstract{
+class Card_Energy:public Card_Abstract{
 private:
     Money Land_Mortgage_Value=0;
     Money MortgagePayback=0;

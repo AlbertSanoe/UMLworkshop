@@ -5,7 +5,7 @@
 #ifndef UMLWORKSHOP_CARD_TRANSPORT_H
 #define UMLWORKSHOP_CARD_TRANSPORT_H
 
-#include"Card_Industry_Abstract.h"
+#include"Card_Abstract.h"
 
 #define has_1_gare 0
 #define has_2_gare 1
@@ -15,7 +15,7 @@
 #define Signal_Basic 0
 #define Signal_Upgrade 1
 
-class Card_Transport:public Card_Industry_Abstract{
+class Card_Transport:public Card_Abstract{
 private:
     Money Rent[4]={0};
     Money* Has_One_Gare=&Rent[0];

@@ -4,7 +4,7 @@
 
 #include "Card_Energy.h"
 
-Card_Energy::Card_Energy(QString name): Card_Industry_Abstract(name) {}
+Card_Energy::Card_Energy(QString name): Card_Abstract(name) {}
 
 void Card_Energy::SetPrice(const vector<Money>&PriceInput) {
     size_t length=PriceInput.size();

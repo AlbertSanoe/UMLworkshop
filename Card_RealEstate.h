@@ -5,7 +5,7 @@
 #ifndef UMLWORKSHOP_CARD_REALESTATE_H
 #define UMLWORKSHOP_CARD_REALESTATE_H
 
-#include "Card_Industry_Abstract.h"
+#include "Card_Abstract.h"
 
 typedef int Color;
 
@@ -27,7 +27,7 @@ typedef int Color;
 #define buy_skyscraper 3
 
 
-class Card_RealEstate:public Card_Industry_Abstract{
+class Card_RealEstate:public Card_Abstract{
 
 private:
 

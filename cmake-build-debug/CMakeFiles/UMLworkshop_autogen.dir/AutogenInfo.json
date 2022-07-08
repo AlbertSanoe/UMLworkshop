@@ -77,15 +77,21 @@
 	"HEADERS" : 
 	[
 		[
-			"D:/study/Clion_Document/UMLworkshop/Card_Energy.h",
+			"D:/study/Clion_Document/UMLworkshop/Card_Abstract.h",
 			"MU",
-			"EWIEGA46WW/moc_Card_Energy.cpp",
+			"EWIEGA46WW/moc_Card_Abstract.cpp",
 			null
 		],
 		[
-			"D:/study/Clion_Document/UMLworkshop/Card_Industry_Abstract.h",
+			"D:/study/Clion_Document/UMLworkshop/Card_Action.h",
 			"MU",
-			"EWIEGA46WW/moc_Card_Industry_Abstract.cpp",
+			"EWIEGA46WW/moc_Card_Action.cpp",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/Card_Energy.h",
+			"MU",
+			"EWIEGA46WW/moc_Card_Energy.cpp",
 			null
 		],
 		[
@@ -122,6 +128,12 @@
 			"D:/study/Clion_Document/UMLworkshop/Player.h",
 			"MU",
 			"EWIEGA46WW/moc_Player.cpp",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/Square_Industry_Abstract.h",
+			"MU",
+			"EWIEGA46WW/moc_Square_Industry_Abstract.cpp",
 			null
 		],
 		[
@@ -248,12 +260,9 @@
 	"SETTINGS_FILE" : "D:/study/Clion_Document/UMLworkshop/cmake-build-debug/CMakeFiles/UMLworkshop_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "D:/study/Clion_Document/UMLworkshop/Card_Abstract.cpp", "MU", null ],
+		[ "D:/study/Clion_Document/UMLworkshop/Card_Action.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/Card_Energy.cpp", "MU", null ],
-		[
-			"D:/study/Clion_Document/UMLworkshop/Card_Industry_Abstract.cpp",
-			"MU",
-			null
-		],
 		[ "D:/study/Clion_Document/UMLworkshop/Card_RealEstate.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/Card_Transport.cpp", "MU", null ],
 		[
@@ -264,6 +273,11 @@
 		[ "D:/study/Clion_Document/UMLworkshop/Factory_Card.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/MainWindow.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/Player.cpp", "MU", null ],
+		[
+			"D:/study/Clion_Document/UMLworkshop/Square_Industry_Abstract.cpp",
+			"MU",
+			null
+		],
 		[ "D:/study/Clion_Document/UMLworkshop/View_Abstract.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/View_Player.cpp", "MU", null ],
 		[

@@ -4,7 +4,7 @@
 
 #include "Card_RealEstate.h"
 
-Card_RealEstate::Card_RealEstate(QString name) : Card_Industry_Abstract(name) {}
+Card_RealEstate::Card_RealEstate(QString name) : Card_Abstract(name) {}
 
 void Card_RealEstate::SetColor(Color c){
     this->StreetColor=c;

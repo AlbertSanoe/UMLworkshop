@@ -4,7 +4,7 @@
 
 #include "Card_Transport.h"
 
-Card_Transport::Card_Transport(QString name):Card_Industry_Abstract(name){}
+Card_Transport::Card_Transport(QString name): Card_Abstract(name){}
 
 void Card_Transport::SetRent(const vector<Money>&RentInput) {
     size_t length=RentInput.size();

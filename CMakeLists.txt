@@ -26,8 +26,8 @@ add_executable(UMLworkshop
         Player.h
         Card_RealEstate.cpp
         Card_RealEstate.h
-        Card_Industry_Abstract.cpp
-        Card_Industry_Abstract.h
+        Card_Abstract.cpp
+        Card_Abstract.h
         View_Abstract.cpp
         View_Abstract.h
         Card_Transport.cpp
@@ -56,7 +56,7 @@ add_executable(UMLworkshop
         View_Player.h
         View_StartingGame.cpp
         View_StartingGame.h
-        )
+        Square_Industry_Abstract.cpp Square_Industry_Abstract.h Card_Action.cpp Card_Action.h)
 target_link_libraries(UMLworkshop
         Qt5::Core
         Qt5::Gui
