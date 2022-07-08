@@ -9,6 +9,7 @@
 #include  <vector>
 using std::vector;
 typedef double Money;
+typedef int Color;
 
 class Card_Industry_Abstract{
 private:
@@ -23,6 +24,8 @@ public:
     virtual Money ReturnCurrentPrice(int Status)const=0;
     virtual Money ReturnMortgage()const=0;
     virtual Money ReturnMortgagePayback()const=0;
+    virtual void SetColor(Color StreetColor){}
+    virtual Color ReturnColor()const{}
 };
 
 #endif //UMLWORKSHOP_CARD_INDUSTRY_ABSTRACT_H

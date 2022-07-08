@@ -16,10 +16,12 @@ Card_Industry_Abstract*Factory_Card::ReturnCard(Card Type, const Input_Info&Info
             std::vector<Money> Price = {DataList[0].toDouble(), DataList[1].toDouble(), DataList[1].toDouble(),
                                         DataList[1].toDouble()};
             Money Mortgage=DataList[0].toDouble()/2;
+            Color color=DataList[9].toInt();
             card_ptr=new Card_RealEstate(name);
             card_ptr->SetRent(Rent);
             card_ptr->SetPrice(Price);
             card_ptr->SetMortgage(Mortgage);
+            card_ptr->SetColor(color);
             break;
         }
         case card_transport:{
