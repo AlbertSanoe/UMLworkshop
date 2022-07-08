@@ -21,7 +21,7 @@ private:
 public:
     explicit View_Square_Abstract(int position,QGraphicsItem* parent = nullptr);
     int GetPosition() const;
-    virtual void DrawPicture(int Status)=0;
+
 };
 
 

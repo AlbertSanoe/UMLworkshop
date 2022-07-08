@@ -14,6 +14,7 @@ void Board::Set_RealEstate_Card_List() {
         ptr=Factory_Card::ReturnCard(card_realEstate,line);
         this->RealEstate_Card.push_back(ptr);
     }
+    file.close();
 }
 
 void Board::Set_Transport_Card_List() {
@@ -26,6 +27,7 @@ void Board::Set_Transport_Card_List() {
         ptr=Factory_Card::ReturnCard(card_transport,line);
         this->Transport_Card.push_back(ptr);
     }
+    file.close();
 }
 
 void Board::Set_Energy_Card_List() {
@@ -38,6 +40,7 @@ void Board::Set_Energy_Card_List() {
         ptr=Factory_Card::ReturnCard(card_energy,line);
         this->Energy_Card.push_back(ptr);
     }
+    file.close();
 }
 
 void Board::Set_Chance_Card_List() {
@@ -50,6 +53,7 @@ void Board::Set_Chance_Card_List() {
         ptr=Factory_Card::ReturnCard(card_action,line);
         this->Chance_Card.push_back(ptr);
     }
+    file.close();
 }
 
 void Board::Set_CommunityChest_Card_List() {
@@ -62,6 +66,7 @@ void Board::Set_CommunityChest_Card_List() {
         ptr=Factory_Card::ReturnCard(card_action,line);
         this->CommunityChest_Card.push_back(ptr);
     }
+    file.close();
 }
 
 Board::Board() {

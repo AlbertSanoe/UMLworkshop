@@ -131,6 +131,12 @@
 			null
 		],
 		[
+			"D:/study/Clion_Document/UMLworkshop/Factory_Square.h",
+			"MU",
+			"EWIEGA46WW/moc_Factory_Square.cpp",
+			null
+		],
+		[
 			"D:/study/Clion_Document/UMLworkshop/MainWindow.h",
 			"MU",
 			"EWIEGA46WW/moc_MainWindow.cpp",
@@ -289,6 +295,7 @@
 			null
 		],
 		[ "D:/study/Clion_Document/UMLworkshop/Factory_Card.cpp", "MU", null ],
+		[ "D:/study/Clion_Document/UMLworkshop/Factory_Square.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/MainWindow.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/Player.cpp", "MU", null ],
 		[
