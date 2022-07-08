@@ -5,6 +5,9 @@
 #ifndef UMLWORKSHOP_FACTORY_ABSTRACT_H
 #define UMLWORKSHOP_FACTORY_ABSTRACT_H
 
+class Factory_Abstract{
+
+};
 
 
 #endif //UMLWORKSHOP_FACTORY_ABSTRACT_H

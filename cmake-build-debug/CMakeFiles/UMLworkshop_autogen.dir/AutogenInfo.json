@@ -189,6 +189,12 @@
 			"MU",
 			"EWIEGA46WW/moc_View_Square_Treasure_Chance.cpp",
 			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/View_StartingGame.h",
+			"MU",
+			"EWIEGA46WW/moc_View_StartingGame.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -298,6 +304,11 @@
 		],
 		[
 			"D:/study/Clion_Document/UMLworkshop/View_Square_Treasure_Chance.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/View_StartingGame.cpp",
 			"MU",
 			null
 		],

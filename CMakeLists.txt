@@ -14,7 +14,7 @@ find_package(Qt5 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(UMLworkshop main.cpp Factory_Abstract.h Factory_Abstract.cpp MainWindow.h MainWindow.cpp View_Square_Abstract.h View_Square_Abstract.cpp Player.cpp Player.h Card_RealEstate.cpp Card_RealEstate.h Card_Industry_Abstract.cpp Card_Industry_Abstract.h View_Abstract.cpp View_Abstract.h Card_Transport.cpp Card_Transport.h Card_Energy.cpp Card_Energy.h Factory_Card.cpp Factory_Card.h View_Square_RealEstate.cpp View_Square_RealEstate.h View_Square_Transport.cpp View_Square_Transport.h View_Square_Energy.cpp View_Square_Energy.h View_Square_Treasure_Chance.cpp View_Square_Treasure_Chance.h View_Square_Start.cpp View_Square_Start.h View_Square_Idle.cpp View_Square_Idle.h View_Square_Prison.cpp View_Square_Prison.h View_Square_Tax.cpp View_Square_Tax.h View_Player.cpp View_Player.h)
+add_executable(UMLworkshop main.cpp Factory_Abstract.h Factory_Abstract.cpp MainWindow.h MainWindow.cpp View_Square_Abstract.h View_Square_Abstract.cpp Player.cpp Player.h Card_RealEstate.cpp Card_RealEstate.h Card_Industry_Abstract.cpp Card_Industry_Abstract.h View_Abstract.cpp View_Abstract.h Card_Transport.cpp Card_Transport.h Card_Energy.cpp Card_Energy.h Factory_Card.cpp Factory_Card.h View_Square_RealEstate.cpp View_Square_RealEstate.h View_Square_Transport.cpp View_Square_Transport.h View_Square_Energy.cpp View_Square_Energy.h View_Square_Treasure_Chance.cpp View_Square_Treasure_Chance.h View_Square_Start.cpp View_Square_Start.h View_Square_Idle.cpp View_Square_Idle.h View_Square_Prison.cpp View_Square_Prison.h View_Square_Tax.cpp View_Square_Tax.h View_Player.cpp View_Player.h View_StartingGame.cpp View_StartingGame.h)
 target_link_libraries(UMLworkshop
         Qt5::Core
         Qt5::Gui
