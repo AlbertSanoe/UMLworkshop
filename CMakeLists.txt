@@ -34,14 +34,6 @@ add_executable(UMLworkshop
         Card_Energy.h
         Factory_Card.cpp
         Factory_Card.h
-        View_Square_RealEstate.cpp
-        View_Square_RealEstate.h
-        View_Square_Transport.cpp
-        View_Square_Transport.h
-        View_Square_Energy.cpp
-        View_Square_Energy.h
-        View_Square_Treasure_Chance.cpp
-        View_Square_Treasure_Chance.h
         View_Square_Start.cpp
         View_Square_Start.h
         View_Square_Idle.cpp
@@ -68,7 +60,7 @@ add_executable(UMLworkshop
         Busticket.h
         Die.h
         Die.cpp
-        )
+        View_Square_WithCard.cpp View_Square_WithCard.h)
 target_link_libraries(UMLworkshop
         Qt5::Core
         Qt5::Gui
