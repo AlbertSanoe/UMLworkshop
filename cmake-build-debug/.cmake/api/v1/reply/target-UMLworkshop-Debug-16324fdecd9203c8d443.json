@@ -143,18 +143,19 @@
 				50,
 				52,
 				54,
-				56
+				56,
+				58
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "UMLworkshop_autogen::@6890427a1f51a3e7e1df"
+			"id" : "UMLworkshop_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "UMLworkshop_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "UMLworkshop_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "UMLworkshop::@6890427a1f51a3e7e1df",
@@ -234,7 +235,8 @@
 				50,
 				52,
 				54,
-				56
+				56,
+				58
 			]
 		},
 		{
@@ -268,21 +270,22 @@
 				51,
 				53,
 				55,
-				57
+				57,
+				59
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				58
+				60
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				59
+				61
 			]
 		}
 	],
@@ -607,6 +610,17 @@
 		{
 			"backtrace" : 1,
 			"path" : "Controller_View.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "View_Turn.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "View_Turn.h",
 			"sourceGroupIndex" : 1
 		},
 		{

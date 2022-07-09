@@ -243,6 +243,12 @@
 			"MU",
 			"EWIEGA46WW/moc_View_StartingGame.cpp",
 			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/View_Turn.h",
+			"MU",
+			"EWIEGA46WW/moc_View_Turn.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -356,6 +362,7 @@
 			"MU",
 			null
 		],
+		[ "D:/study/Clion_Document/UMLworkshop/View_Turn.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
