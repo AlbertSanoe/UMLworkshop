@@ -5,10 +5,7 @@
 #ifndef UMLWORKSHOP_VIEW_SQUARE_ABSTRACT_H
 #define UMLWORKSHOP_VIEW_SQUARE_ABSTRACT_H
 
-/**
- * @param position:the position that the square resides
- *
- */
+#include "Event_Abstract.h"
 
 #include <QGraphicsRectItem>
 #include <QGraphicsView>
@@ -17,7 +14,7 @@
 class View_Square_Abstract: public QObject, public QGraphicsRectItem{
 private:
     int Position;
-
+    //Event_Abstract* Event;
 public:
     explicit View_Square_Abstract(int position,QGraphicsItem* parent = nullptr);
     int GetPosition() const;

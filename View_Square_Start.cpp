@@ -3,3 +3,7 @@
 //
 
 #include "View_Square_Start.h"
+
+View_Square_Start::View_Square_Start(int position,QGraphicsItem* parent): View_Square_Abstract(position,parent){
+
+}
