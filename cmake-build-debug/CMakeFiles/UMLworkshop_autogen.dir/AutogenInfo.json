@@ -83,6 +83,12 @@
 			null
 		],
 		[
+			"D:/study/Clion_Document/UMLworkshop/Busticket.h",
+			"MU",
+			"EWIEGA46WW/moc_Busticket.cpp",
+			null
+		],
+		[
 			"D:/study/Clion_Document/UMLworkshop/Card_Abstract.h",
 			"MU",
 			"EWIEGA46WW/moc_Card_Abstract.cpp",
@@ -116,6 +122,12 @@
 			"D:/study/Clion_Document/UMLworkshop/Controller_Object.h",
 			"MU",
 			"EWIEGA46WW/moc_Controller_Object.cpp",
+			null
+		],
+		[
+			"D:/study/Clion_Document/UMLworkshop/Die.h",
+			"MU",
+			"EWIEGA46WW/moc_Die.cpp",
 			null
 		],
 		[
@@ -279,6 +291,7 @@
 	"SOURCES" : 
 	[
 		[ "D:/study/Clion_Document/UMLworkshop/Board.cpp", "MU", null ],
+		[ "D:/study/Clion_Document/UMLworkshop/Busticket.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/Card_Abstract.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/Card_Action.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/Card_Energy.cpp", "MU", null ],
@@ -289,6 +302,7 @@
 			"MU",
 			null
 		],
+		[ "D:/study/Clion_Document/UMLworkshop/Die.cpp", "MU", null ],
 		[
 			"D:/study/Clion_Document/UMLworkshop/Factory_Abstract.cpp",
 			"MU",
