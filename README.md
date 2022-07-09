@@ -12,4 +12,4 @@ Card_Transport.h
 
 Finished by Wang
 Die.h/.cpp
-Busticket.h/.cpp
+BusTicket.h/.cpp

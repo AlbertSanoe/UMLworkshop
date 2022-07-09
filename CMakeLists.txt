@@ -60,7 +60,7 @@ add_executable(UMLworkshop
         Busticket.h
         Die.h
         Die.cpp
-        View_Square_WithCard.cpp View_Square_WithCard.h Event_Abstract.cpp Event_Abstract.h)
+        View_Square_WithCard.cpp View_Square_WithCard.h Event_Abstract.cpp Event_Abstract.h View_House.cpp View_House.h View_Piece.cpp View_Piece.h View_Board.cpp View_Board.h)
 target_link_libraries(UMLworkshop
         Qt5::Core
         Qt5::Gui
