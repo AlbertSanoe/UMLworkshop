@@ -11,7 +11,7 @@ int Die::RollDie() const
     return GetRandomNumber();
 }
 
-int Die::GetRandomNumber()const
+int Die::GetRandomNumber(int p_min, int p_max) const
 {
-    return rand() % 6 + 1;
+    return rand() % (p_max + 1 - p_min) + p_min;
 }

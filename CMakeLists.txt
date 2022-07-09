@@ -16,8 +16,6 @@ find_package(Qt5 COMPONENTS
 
 add_executable(UMLworkshop
         main.cpp
-        Factory_Abstract.h
-        Factory_Abstract.cpp
         MainWindow.h
         MainWindow.cpp
         View_Square_Abstract.h

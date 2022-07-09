@@ -20,7 +20,7 @@ public:
      * @brief GetRandomNumber gives back a random integer
      * @return returns the random integer
      */
-    int GetRandomNumber()const;
+    int GetRandomNumber(int p_min, int p_max) const;
 };
 
 #endif // DIE_H
