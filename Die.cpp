@@ -3,7 +3,7 @@
 
 Die::Die()
 {
-    srand(time(NULL));
+    srand(time(nullptr));
 }
 
 int Die::RollDie() const
