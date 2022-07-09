@@ -292,6 +292,14 @@ build CMakeFiles/UMLworkshop.dir/View_Board.cpp.obj: CXX_COMPILER__UMLworkshop_D
   OBJECT_DIR = CMakeFiles\UMLworkshop.dir
   OBJECT_FILE_DIR = CMakeFiles\UMLworkshop.dir
 
+build CMakeFiles/UMLworkshop.dir/Controller_View.cpp.obj: CXX_COMPILER__UMLworkshop_Debug D$:/study/Clion_Document/UMLworkshop/Controller_View.cpp || cmake_object_order_depends_target_UMLworkshop
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles\UMLworkshop.dir\Controller_View.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -ID:/study/Clion_Document/UMLworkshop/cmake-build-debug/UMLworkshop_autogen/include -isystem D:/qt/creator/5.15.2/mingw81_64/include -isystem D:/qt/creator/5.15.2/mingw81_64/include/QtCore -isystem D:/qt/creator/5.15.2/mingw81_64/./mkspecs/win32-g++ -isystem D:/qt/creator/5.15.2/mingw81_64/include/QtGui -isystem D:/qt/creator/5.15.2/mingw81_64/include/QtANGLE -isystem D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets
+  OBJECT_DIR = CMakeFiles\UMLworkshop.dir
+  OBJECT_FILE_DIR = CMakeFiles\UMLworkshop.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target UMLworkshop
@@ -300,7 +308,7 @@ build CMakeFiles/UMLworkshop.dir/View_Board.cpp.obj: CXX_COMPILER__UMLworkshop_D
 #############################################
 # Link the executable UMLworkshop.exe
 
-build UMLworkshop.exe: CXX_EXECUTABLE_LINKER__UMLworkshop_Debug CMakeFiles/UMLworkshop.dir/UMLworkshop_autogen/mocs_compilation.cpp.obj CMakeFiles/UMLworkshop.dir/main.cpp.obj CMakeFiles/UMLworkshop.dir/MainWindow.cpp.obj CMakeFiles/UMLworkshop.dir/View_Square_Abstract.cpp.obj CMakeFiles/UMLworkshop.dir/Player.cpp.obj CMakeFiles/UMLworkshop.dir/Card_RealEstate.cpp.obj CMakeFiles/UMLworkshop.dir/Card_Abstract.cpp.obj CMakeFiles/UMLworkshop.dir/View_Abstract.cpp.obj CMakeFiles/UMLworkshop.dir/Card_Transport.cpp.obj CMakeFiles/UMLworkshop.dir/Card_Energy.cpp.obj CMakeFiles/UMLworkshop.dir/Factory_Card.cpp.obj CMakeFiles/UMLworkshop.dir/View_Square_Start.cpp.obj CMakeFiles/UMLworkshop.dir/View_Square_Idle.cpp.obj CMakeFiles/UMLworkshop.dir/View_Square_Prison.cpp.obj CMakeFiles/UMLworkshop.dir/View_Square_Tax.cpp.obj CMakeFiles/UMLworkshop.dir/View_Player.cpp.obj CMakeFiles/UMLworkshop.dir/View_StartingGame.cpp.obj CMakeFiles/UMLworkshop.dir/Square_Industry_Abstract.cpp.obj CMakeFiles/UMLworkshop.dir/Card_Action.cpp.obj CMakeFiles/UMLworkshop.dir/Board.cpp.obj CMakeFiles/UMLworkshop.dir/Controller_Object.cpp.obj CMakeFiles/UMLworkshop.dir/Factory_Square.cpp.obj CMakeFiles/UMLworkshop.dir/Busticket.cpp.obj CMakeFiles/UMLworkshop.dir/Die.cpp.obj CMakeFiles/UMLworkshop.dir/View_Square_WithCard.cpp.obj CMakeFiles/UMLworkshop.dir/Event_Abstract.cpp.obj CMakeFiles/UMLworkshop.dir/View_House.cpp.obj CMakeFiles/UMLworkshop.dir/View_Piece.cpp.obj CMakeFiles/UMLworkshop.dir/View_Board.cpp.obj | D$:/qt/creator/5.15.2/mingw81_64/lib/libQt5Widgets.a D$:/qt/creator/5.15.2/mingw81_64/lib/libQt5Gui.a D$:/qt/creator/5.15.2/mingw81_64/lib/libQt5Core.a || UMLworkshop_autogen UMLworkshop_autogen_timestamp_deps
+build UMLworkshop.exe: CXX_EXECUTABLE_LINKER__UMLworkshop_Debug CMakeFiles/UMLworkshop.dir/UMLworkshop_autogen/mocs_compilation.cpp.obj CMakeFiles/UMLworkshop.dir/main.cpp.obj CMakeFiles/UMLworkshop.dir/MainWindow.cpp.obj CMakeFiles/UMLworkshop.dir/View_Square_Abstract.cpp.obj CMakeFiles/UMLworkshop.dir/Player.cpp.obj CMakeFiles/UMLworkshop.dir/Card_RealEstate.cpp.obj CMakeFiles/UMLworkshop.dir/Card_Abstract.cpp.obj CMakeFiles/UMLworkshop.dir/View_Abstract.cpp.obj CMakeFiles/UMLworkshop.dir/Card_Transport.cpp.obj CMakeFiles/UMLworkshop.dir/Card_Energy.cpp.obj CMakeFiles/UMLworkshop.dir/Factory_Card.cpp.obj CMakeFiles/UMLworkshop.dir/View_Square_Start.cpp.obj CMakeFiles/UMLworkshop.dir/View_Square_Idle.cpp.obj CMakeFiles/UMLworkshop.dir/View_Square_Prison.cpp.obj CMakeFiles/UMLworkshop.dir/View_Square_Tax.cpp.obj CMakeFiles/UMLworkshop.dir/View_Player.cpp.obj CMakeFiles/UMLworkshop.dir/View_StartingGame.cpp.obj CMakeFiles/UMLworkshop.dir/Square_Industry_Abstract.cpp.obj CMakeFiles/UMLworkshop.dir/Card_Action.cpp.obj CMakeFiles/UMLworkshop.dir/Board.cpp.obj CMakeFiles/UMLworkshop.dir/Controller_Object.cpp.obj CMakeFiles/UMLworkshop.dir/Factory_Square.cpp.obj CMakeFiles/UMLworkshop.dir/Busticket.cpp.obj CMakeFiles/UMLworkshop.dir/Die.cpp.obj CMakeFiles/UMLworkshop.dir/View_Square_WithCard.cpp.obj CMakeFiles/UMLworkshop.dir/Event_Abstract.cpp.obj CMakeFiles/UMLworkshop.dir/View_House.cpp.obj CMakeFiles/UMLworkshop.dir/View_Piece.cpp.obj CMakeFiles/UMLworkshop.dir/View_Board.cpp.obj CMakeFiles/UMLworkshop.dir/Controller_View.cpp.obj | D$:/qt/creator/5.15.2/mingw81_64/lib/libQt5Widgets.a D$:/qt/creator/5.15.2/mingw81_64/lib/libQt5Gui.a D$:/qt/creator/5.15.2/mingw81_64/lib/libQt5Core.a || UMLworkshop_autogen UMLworkshop_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = D:/qt/creator/5.15.2/mingw81_64/lib/libQt5Widgets.a  D:/qt/creator/5.15.2/mingw81_64/lib/libQt5Gui.a  D:/qt/creator/5.15.2/mingw81_64/lib/libQt5Core.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\UMLworkshop.dir
@@ -348,7 +356,7 @@ build UMLworkshop_autogen/timestamp UMLworkshop_autogen/mocs_compilation.cpp | $
 #############################################
 # Phony custom command for CMakeFiles\UMLworkshop_autogen_timestamp_deps
 
-build CMakeFiles/UMLworkshop_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/UMLworkshop_autogen_timestamp_deps: phony D$:/qt/creator/5.15.2/mingw81_64/bin/Qt5Core.dll D$:/qt/creator/5.15.2/mingw81_64/bin/Qt5Widgets.dll D$:/qt/creator/5.15.2/mingw81_64/bin/Qt5Gui.dll D$:/qt/creator/5.15.2/mingw81_64/bin/uic.exe D$:/qt/creator/5.15.2/mingw81_64/bin/moc.exe
+build CMakeFiles/UMLworkshop_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/UMLworkshop_autogen_timestamp_deps: phony D$:/qt/creator/5.15.2/mingw81_64/bin/moc.exe D$:/qt/creator/5.15.2/mingw81_64/bin/Qt5Widgets.dll D$:/qt/creator/5.15.2/mingw81_64/bin/uic.exe D$:/qt/creator/5.15.2/mingw81_64/bin/Qt5Core.dll D$:/qt/creator/5.15.2/mingw81_64/bin/Qt5Gui.dll
 
 
 #############################################
