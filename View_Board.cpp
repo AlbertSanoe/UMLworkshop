@@ -6,7 +6,7 @@
 
 void View_Board::Set_Square_List(){
     // Load space rectangles from file
-    QFile file("../Data/spacesRects.txt");
+    QFile file("../DataFile/spacesRects.txt");
     file.open(QFile::ReadOnly);
 
     QTextStream textStream(&file);

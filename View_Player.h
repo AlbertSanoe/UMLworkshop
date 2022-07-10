@@ -21,7 +21,7 @@ private:
     QLabel* m_amountOfMoneyLabel;
 public:
     View_Player(int Player_Number, int Player_Money,QWidget* parent = NULL);
-    ~View_Player();
+    //~View_Player();
 };
 
 #endif //UMLWORKSHOP_VIEW_PLAYER_H

@@ -3,16 +3,20 @@
 //
 
 #include "Board.h"
-
+#include "string.h"
 void Board::Set_RealEstate_Card_List() {
     QFile file("../DataFile/Data_RealEstate.txt");
+    int a=file.exists();
     file.open(QFile::ReadOnly);
     QTextStream textStream(&file);
+    int aa=0;
     while(!textStream.atEnd()){
         Card_Abstract*ptr;
         QString line =textStream.readLine();
+        std::string dd=line.toStdString();
         ptr=Factory_Card::ReturnCard(card_realEstate,line);
-        this->RealEstate_Card.push_back(ptr);
+        this->RealEstate_Card.append(ptr);
+        aa++;
     }
     file.close();
 }

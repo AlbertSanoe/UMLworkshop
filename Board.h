@@ -10,11 +10,11 @@
 
 class Board{
 private:
-    QList<Card_Abstract*>RealEstate_Card={};
-    QList<Card_Abstract*>Transport_Card={};
-    QList<Card_Abstract*>Energy_Card={};
-    QList<Card_Abstract*>Chance_Card={};
-    QList<Card_Abstract*>CommunityChest_Card={};
+    QList<Card_Abstract*>RealEstate_Card;
+    QList<Card_Abstract*>Transport_Card;
+    QList<Card_Abstract*>Energy_Card;
+    QList<Card_Abstract*>Chance_Card;
+    QList<Card_Abstract*>CommunityChest_Card;
 
     //shuffle the cards is necessary
 

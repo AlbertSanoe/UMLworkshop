@@ -9,7 +9,16 @@ Card_Abstract*Factory_Card::ReturnCard(Card Type, const Input_Info&Info) {
     Card_Abstract* card_ptr;
     switch(Type){
         case card_realEstate:{
-            QString name = DataList[10] + " " + DataList[11];
+            QString name;
+            if(DataList.size()==11){
+                name = DataList[10];
+            }
+            else if(DataList.size()==13){
+                name = DataList[10] + " " + DataList[11]+ " "+DataList[12];
+            }
+            else{
+                name = DataList[10] + " " + DataList[11];
+            }
             std::vector<Money> Rent = {DataList[2].toDouble(), DataList[3].toDouble(), DataList[4].toDouble(),
                                        DataList[5].toDouble(), DataList[6].toDouble(), DataList[7].toDouble(),
                                        DataList[8].toDouble()};
@@ -25,7 +34,13 @@ Card_Abstract*Factory_Card::ReturnCard(Card Type, const Input_Info&Info) {
             break;
         }
         case card_transport:{
-            QString name = DataList[5] + " " + DataList[6];
+            QString name;
+            if(DataList.size()==8){
+                name =DataList[5] + " " + DataList[6]+" "+DataList[7];
+            }
+            else{
+                name = DataList[5] + " " + DataList[6];
+            }
             std::vector<Money> Rent = {DataList[1].toDouble(), DataList[2].toDouble(), DataList[3].toDouble(),
                                        DataList[4].toDouble()    };
             std::vector<Money> Price{DataList[0].toDouble()};
@@ -36,7 +51,13 @@ Card_Abstract*Factory_Card::ReturnCard(Card Type, const Input_Info&Info) {
             card_ptr->SetMortgage(Mortgage);
         }
         case card_energy:{
-            QString name=DataList[1]+" "+DataList[2];
+            QString name;
+            if(DataList.size()==2){
+                name=DataList[1];
+            }
+            else{
+                name=DataList[1]+" "+DataList[2];
+            }
             std::vector<Money>Price={DataList[0].toDouble()};
             Money Mortgage=DataList[0].toDouble()/2;
             card_ptr=new Card_Energy(name);
