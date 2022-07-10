@@ -22,8 +22,25 @@ void Controller_Object::InitializeBusTickets()
         Tickets[places[i]]->SetLabeled(true);
 }
 
-Controller_Object::Controller_Object() {
+void Controller_Object::InitializePlayers(int Player_Number) {
+    for(int i=0;i<Player_Number;i++)
+    {
+        Players.append(new Player(i));
+        Players[i]->SetPlayerPosition(0);
+        Players[i]->SetGameState(Game_In);
+        Players[i]->SetPrisonState(Prison_Not_In);
+        Players[i]->SetCash(Money_At_first,Increase_Money);
+    }
+    CurrentPlayer=Players[0];
+}
+
+Controller_Object::Controller_Object(int Player_Number) {
     GameBoard=new Board();
     die=new Die();
     this->InitializeBusTickets();
+    this->InitializePlayers(Player_Number);
+}
+
+Money Controller_Object::ReturnMoneyAtFirst() {
+    return (Money)Money_At_first;
 }

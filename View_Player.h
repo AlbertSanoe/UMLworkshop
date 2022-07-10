@@ -10,6 +10,8 @@
 #include <QPushButton>
 #include <QMessageBox>
 
+#include "Card_Abstract.h"
+
 class View_Player : public QFrame{
 
 Q_OBJECT
@@ -20,7 +22,7 @@ private:
     QPushButton* m_viewInfoButton;
     QLabel* m_amountOfMoneyLabel;
 public:
-    View_Player(int Player_Number, int Player_Money,QWidget* parent = NULL);
+    View_Player(int Player_ID, Money Player_Money,QWidget* parent = nullptr);
     //~View_Player();
 };
 

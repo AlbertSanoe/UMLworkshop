@@ -884,6 +884,7 @@ D:/study/Clion_Document/UMLworkshop/MainWindow.h
  mdp:D:/qt/creator/5.15.2/mingw81_64/include/QtCore/QFile
  mdp:D:/qt/creator/5.15.2/mingw81_64/include/QtCore/QJsonArray
  mdp:D:/qt/creator/5.15.2/mingw81_64/include/QtCore/QJsonObject
+ mdp:D:/qt/creator/5.15.2/mingw81_64/include/QtCore/QList
  mdp:D:/qt/creator/5.15.2/mingw81_64/include/QtCore/QQueue
  mdp:D:/qt/creator/5.15.2/mingw81_64/include/QtCore/QString
  mdp:D:/qt/creator/5.15.2/mingw81_64/include/QtCore/QStringList

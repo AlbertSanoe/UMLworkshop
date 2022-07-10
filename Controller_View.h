@@ -6,7 +6,7 @@
 #define UMLWORKSHOP_CONTROLLER_VIEW_H
 
 #include "View_Board.h"
-
+#include "Card_Abstract.h"
 #include "View_Player.h"
 
 #include <QHBoxLayout>
@@ -23,7 +23,7 @@ private:
     QVBoxLayout* m_View_PlayerLayout;
 
 public:
-    explicit Controller_View(QWidget* parent);
+    explicit Controller_View(int Player_Number,Money Money_Initial,QWidget* parent);
 };
 
 

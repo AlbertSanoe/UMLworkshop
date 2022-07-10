@@ -25,8 +25,11 @@ private:
     Money Cash;
     GameState Game_State=Game_In;
     PrisonState Prison_State=Prison_Not_In;
+    int Player_Number;
+    int Player_Position;
 public:
-    Player(Money cash);
+    explicit Player(int number);
+    void SetPlayerPosition(int position);
     void SetGameState(GameState state);
     void SetPrisonState(PrisonState state);
     void SetCash(Money m,bool setState);

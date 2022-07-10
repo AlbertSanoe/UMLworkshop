@@ -37,9 +37,10 @@ private:
 
     void Set_Square_List();
     void Set_House_List();
-    void InitPiece(int Player_Number,int Player_Position);//invoked after initialization
+
 
 public:
+    void InitPiece(int Player_ID,int Player_Position);//invoked after initialization
     explicit View_Board(QWidget*parent);
 };
 

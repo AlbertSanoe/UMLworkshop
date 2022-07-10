@@ -31,8 +31,8 @@ void View_Board::Set_House_List() {
         Houses.append(NULL);
 }
 
-void View_Board::InitPiece(int Player_Number,int Player_Position){
-    auto* piece = new View_Piece(Player_Number,Squares[Player_Position]);
+void View_Board::InitPiece(int Player_ID,int Player_Position){
+    auto* piece = new View_Piece(Player_ID,Squares[Player_Position]);
     Pieces<<piece;
 }
 

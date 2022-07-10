@@ -10,10 +10,22 @@ MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent){
 
     auto * wdg = new QWidget(this);
 
-    this->Object_Controller= new Controller_Object();
     this->StartingGame_View=new View_StartingGame;
     StartingGame_View->exec();
-    this->View_Controller = new Controller_View(wdg);
+
+//    if (StartingGame_View->LoadFileSelected()){
+//
+//        //QString fileName = StartingGame_View->GetLoadFile();
+//        //Controller_Object->ReadFromFile(fileName);
+//
+//    }
+//    else{
+//        this->Object_Controller= new Controller_Object(StartingGame_View->GetSelectedValue());
+//    }
+
+    this->Object_Controller= new Controller_Object(StartingGame_View->GetSelectedValue());
+
+    this->View_Controller = new Controller_View(StartingGame_View->GetSelectedValue(),Controller_Object::ReturnMoneyAtFirst(),wdg);
 
     setCentralWidget(wdg);
 

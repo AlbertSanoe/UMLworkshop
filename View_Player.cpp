@@ -4,13 +4,13 @@
 
 #include "View_Player.h"
 
-View_Player::View_Player(int Player_Number, int Player_Money,QWidget* parent) : QFrame(parent){
+View_Player::View_Player(int Player_ID, Money Player_Money,QWidget* parent) : QFrame(parent){
 
     setMaximumHeight(150);
     setFrameStyle(QFrame::Panel | QFrame::Sunken);
     setLineWidth(4);
 
-    QString playerName = "Player " + QString::number(Player_Number + 1);
+    QString playerName = "Player " + QString::number(Player_ID + 1);
     m_playerNameLabel = new QLabel(playerName, this);
     m_amountOfMoneyLabel = new QLabel("Money: $" + QString::number(Player_Money), this);
     m_viewInfoButton = new QPushButton("View info", this);

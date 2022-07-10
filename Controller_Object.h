@@ -11,6 +11,9 @@
 #include "Busticket.h"
 
 #include<QQueue>
+#include<QList>
+
+#define Money_At_first 2500
 
 class Controller_Object{
 private:
@@ -21,6 +24,7 @@ private:
     Die*die;
 
     void InitializeBusTickets();
+    void InitializePlayers(int Player_Number);
 
 public:
     const int MAX_NUMBER_PLAYERS=8;
@@ -31,7 +35,9 @@ public:
     const int LEFT_UP_CORNER=26;
     const int RIGHT_UP_CORNER=39;
 
-    Controller_Object();
+    static Money ReturnMoneyAtFirst();
+
+    explicit Controller_Object(int Player_Number);
 
 };
 

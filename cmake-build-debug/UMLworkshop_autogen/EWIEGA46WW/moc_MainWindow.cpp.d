@@ -197,6 +197,7 @@ D:/study/Clion_Document/UMLworkshop/cmake-build-debug/UMLworkshop_autogen/EWIEGA
   D:/qt/creator/5.15.2/mingw81_64/include/QtCore/QFile \
   D:/qt/creator/5.15.2/mingw81_64/include/QtCore/QJsonArray \
   D:/qt/creator/5.15.2/mingw81_64/include/QtCore/QJsonObject \
+  D:/qt/creator/5.15.2/mingw81_64/include/QtCore/QList \
   D:/qt/creator/5.15.2/mingw81_64/include/QtCore/QQueue \
   D:/qt/creator/5.15.2/mingw81_64/include/QtCore/QString \
   D:/qt/creator/5.15.2/mingw81_64/include/QtCore/QStringList \

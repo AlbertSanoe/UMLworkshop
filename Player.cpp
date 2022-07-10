@@ -4,8 +4,12 @@
 
 #include "Player.h"
 
-Player::Player(Money cash) {
-    this->Cash=cash;
+Player::Player(int number) {
+    this->Player_Number=number;
+}
+
+void Player::SetPlayerPosition(int position) {
+    this->Player_Position=position;
 }
 
 void Player::SetGameState(GameState state) {
