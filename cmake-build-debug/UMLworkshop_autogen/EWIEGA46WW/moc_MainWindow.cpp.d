@@ -371,7 +371,6 @@ D:/study/Clion_Document/UMLworkshop/cmake-build-debug/UMLworkshop_autogen/EWIEGA
   D:/study/Clion_Document/UMLworkshop/Controller_Object.h \
   D:/study/Clion_Document/UMLworkshop/Controller_View.h \
   D:/study/Clion_Document/UMLworkshop/Die.h \
-  D:/study/Clion_Document/UMLworkshop/Event_Abstract.h \
   D:/study/Clion_Document/UMLworkshop/Factory_Card.h \
   D:/study/Clion_Document/UMLworkshop/Factory_Square.h \
   D:/study/Clion_Document/UMLworkshop/Player.h \

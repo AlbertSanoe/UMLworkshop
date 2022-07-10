@@ -26,8 +26,6 @@ add_executable(UMLworkshop
         Card_RealEstate.h
         Card_Abstract.cpp
         Card_Abstract.h
-        View_Abstract.cpp
-        View_Abstract.h
         Card_Transport.cpp
         Card_Transport.h
         Card_Energy.cpp
@@ -60,7 +58,7 @@ add_executable(UMLworkshop
         Busticket.h
         Die.h
         Die.cpp
-        View_Square_WithCard.cpp View_Square_WithCard.h Event_Abstract.cpp Event_Abstract.h View_House.cpp View_House.h View_Piece.cpp View_Piece.h View_Board.cpp View_Board.h Controller_View.cpp Controller_View.h View_Turn.cpp View_Turn.h)
+        View_Square_WithCard.cpp View_Square_WithCard.h View_House.cpp View_House.h View_Piece.cpp View_Piece.h View_Board.cpp View_Board.h Controller_View.cpp Controller_View.h View_Turn.cpp View_Turn.h Event_Handler.cpp Event_Handler.h)
 target_link_libraries(UMLworkshop
         Qt5::Core
         Qt5::Gui

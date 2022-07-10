@@ -17,8 +17,8 @@
 
 class Controller_Object{
 private:
-    Player* CurrentPlayer;
-    QList<Player*>Players;
+    Player* CurrentPlayer= nullptr;
+    QList<Player*>Players={};
     QQueue<BusTicket*>Tickets;
     Board* GameBoard;
     Die*die;

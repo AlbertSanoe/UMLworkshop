@@ -314,7 +314,6 @@ D:/study/Clion_Document/UMLworkshop/View_Board.h
  mdp:D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h
  mdp:D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qwidget.h
- mdp:D:/study/Clion_Document/UMLworkshop/Event_Abstract.h
  mdp:D:/study/Clion_Document/UMLworkshop/Factory_Square.h
  mdp:D:/study/Clion_Document/UMLworkshop/View_House.h
  mdp:D:/study/Clion_Document/UMLworkshop/View_Piece.h
@@ -668,7 +667,6 @@ D:/study/Clion_Document/UMLworkshop/Controller_View.h
  mdp:D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qwidget.h
  mdp:D:/study/Clion_Document/UMLworkshop/Card_Abstract.h
- mdp:D:/study/Clion_Document/UMLworkshop/Event_Abstract.h
  mdp:D:/study/Clion_Document/UMLworkshop/Factory_Square.h
  mdp:D:/study/Clion_Document/UMLworkshop/View_Board.h
  mdp:D:/study/Clion_Document/UMLworkshop/View_House.h
@@ -1063,7 +1061,6 @@ D:/study/Clion_Document/UMLworkshop/MainWindow.h
  mdp:D:/study/Clion_Document/UMLworkshop/Controller_Object.h
  mdp:D:/study/Clion_Document/UMLworkshop/Controller_View.h
  mdp:D:/study/Clion_Document/UMLworkshop/Die.h
- mdp:D:/study/Clion_Document/UMLworkshop/Event_Abstract.h
  mdp:D:/study/Clion_Document/UMLworkshop/Factory_Card.h
  mdp:D:/study/Clion_Document/UMLworkshop/Factory_Square.h
  mdp:D:/study/Clion_Document/UMLworkshop/Player.h

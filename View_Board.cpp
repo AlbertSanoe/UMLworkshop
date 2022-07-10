@@ -13,8 +13,8 @@ void View_Board::Set_Square_List(){
 
     int position_board=0;
 
-    while(!textStream.atEnd())
-    {
+    while(!textStream.atEnd()){
+
         QString line = textStream.readLine();
         QStringList list = line.split(' ');
         View_Square_Abstract*s=Factory_Square::ReturnViewSquare(list[0].toInt(), list[1].toInt(),list[2].toInt(), list[3].toInt(),position_board,m_boardPixmapItem);

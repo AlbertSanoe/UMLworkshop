@@ -14,7 +14,7 @@
 class View_Turn:public QWidget{
     Q_OBJECT
 private:
-
+    const int MAX_NOTIFICATIONS=5;
     QLabel * m_infoMessage;
     QLabel * m_currentPlayerMessage;
     QPushButton* m_diceButton;
@@ -30,11 +30,14 @@ private:
     QVBoxLayout* m_vLayout;
 
     QList<bool> m_restoreButtonValues;
+    QQueue <QString> m_notificationCenter;
 
     void InitPushButtons();
     void InitLayout();
+    void AddMessageToNotifications(const QString& p_message,int Current_Player_ID);
+    void FillInfoMessageWithNotifications();
 public:
-    View_Turn(QWidget*parent= nullptr);
+    explicit View_Turn(QWidget*parent= nullptr);
 
 };
 

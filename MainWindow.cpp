@@ -6,7 +6,7 @@
 
 MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent){
     this->setMinimumSize(800, 500);
-    this->resize(1400, 1000);
+    this->resize(1600, 1000);
 
     auto * wdg = new QWidget(this);
 

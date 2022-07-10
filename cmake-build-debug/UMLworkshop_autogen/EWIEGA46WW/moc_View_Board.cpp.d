@@ -306,7 +306,6 @@ D:/study/Clion_Document/UMLworkshop/cmake-build-debug/UMLworkshop_autogen/EWIEGA
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
-  D:/study/Clion_Document/UMLworkshop/Event_Abstract.h \
   D:/study/Clion_Document/UMLworkshop/Factory_Square.h \
   D:/study/Clion_Document/UMLworkshop/View_House.h \
   D:/study/Clion_Document/UMLworkshop/View_Piece.h \

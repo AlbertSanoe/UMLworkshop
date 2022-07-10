@@ -5,7 +5,7 @@
 #ifndef UMLWORKSHOP_VIEW_SQUARE_ABSTRACT_H
 #define UMLWORKSHOP_VIEW_SQUARE_ABSTRACT_H
 
-#include "Event_Abstract.h"
+
 
 #include <QGraphicsRectItem>
 #include <QGraphicsView>

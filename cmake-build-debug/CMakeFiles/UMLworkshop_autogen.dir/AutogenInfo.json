@@ -137,9 +137,9 @@
 			null
 		],
 		[
-			"D:/study/Clion_Document/UMLworkshop/Event_Abstract.h",
+			"D:/study/Clion_Document/UMLworkshop/Event_Handler.h",
 			"MU",
-			"EWIEGA46WW/moc_Event_Abstract.cpp",
+			"EWIEGA46WW/moc_Event_Handler.cpp",
 			null
 		],
 		[
@@ -316,7 +316,7 @@
 		],
 		[ "D:/study/Clion_Document/UMLworkshop/Controller_View.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/Die.cpp", "MU", null ],
-		[ "D:/study/Clion_Document/UMLworkshop/Event_Abstract.cpp", "MU", null ],
+		[ "D:/study/Clion_Document/UMLworkshop/Event_Handler.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/Factory_Card.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/Factory_Square.cpp", "MU", null ],
 		[ "D:/study/Clion_Document/UMLworkshop/MainWindow.cpp", "MU", null ],

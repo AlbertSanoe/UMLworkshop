@@ -435,8 +435,6 @@ UMLworkshop_autogen/timestamp: \
   ../Controller_View.h \
   ../Die.cpp \
   ../Die.h \
-  ../Event_Abstract.cpp \
-  ../Event_Abstract.h \
   ../Factory_Card.cpp \
   ../Factory_Card.h \
   ../Factory_Square.cpp \
