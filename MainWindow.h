@@ -7,6 +7,10 @@
 
 #include <QMainWindow>
 
+#include "Controller_Object.h"
+#include "Controller_View.h"
+
+
 class MainWindow:public QMainWindow{
     Q_OBJECT
 public:
@@ -14,8 +18,8 @@ public:
     ~MainWindow();
 
 private:
-
-
+    Controller_Object* Object_Controller;
+    Controller_View* View_Controller;
 };
 
 #endif //UMLWORKSHOP_MAINWINDOW_H

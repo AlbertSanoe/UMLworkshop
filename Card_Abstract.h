@@ -7,6 +7,7 @@
 
 #include <QString>
 #include  <vector>
+
 using std::vector;
 typedef double Money;
 typedef int Color;

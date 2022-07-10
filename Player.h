@@ -6,8 +6,8 @@
 #define UMLWORKSHOP_PLAYER_H
 
 #include <QString>
-
-typedef int Money;
+#include "Card_Abstract.h"
+//typedef double Money;
 typedef bool GameState;
 typedef bool PrisonState;
 

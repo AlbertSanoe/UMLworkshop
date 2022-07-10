@@ -8,7 +8,7 @@ Die::Die()
 
 int Die::RollDie() const
 {
-    return GetRandomNumber();
+    return GetRandomNumber(1,6);
 }
 
 int Die::GetRandomNumber(int p_min, int p_max) const
