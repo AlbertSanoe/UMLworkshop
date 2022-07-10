@@ -11,12 +11,12 @@
 #include <QPushButton>
 #include <QLabel>
 
-class StartDialog: public QDialog
+class View_StartingGame: public QDialog
 {
 Q_OBJECT
 public:
-    StartDialog();
-    ~StartDialog() override;
+    View_StartingGame();
+    ~View_StartingGame() override;
     int GetSelectedValue();
 
     bool LoadFileSelected();

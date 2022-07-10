@@ -21,27 +21,28 @@
 QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_StartDialog_t {
+struct qt_meta_stringdata_View_StartingGame_t {
     QByteArrayData data[3];
-    char stringdata0[35];
+    char stringdata0[41];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    qptrdiff(offsetof(qt_meta_stringdata_StartDialog_t, stringdata0) + ofs \
+    qptrdiff(offsetof(qt_meta_stringdata_View_StartingGame_t, stringdata0) + ofs \
         - idx * sizeof(QByteArrayData)) \
     )
-static const qt_meta_stringdata_StartDialog_t qt_meta_stringdata_StartDialog = {
+static const qt_meta_stringdata_View_StartingGame_t qt_meta_stringdata_View_StartingGame = {
     {
-QT_MOC_LITERAL(0, 0, 11), // "StartDialog"
-QT_MOC_LITERAL(1, 12, 21), // "LoadFileButtonClicked"
-QT_MOC_LITERAL(2, 34, 0) // ""
+QT_MOC_LITERAL(0, 0, 17), // "View_StartingGame"
+QT_MOC_LITERAL(1, 18, 21), // "LoadFileButtonClicked"
+QT_MOC_LITERAL(2, 40, 0) // ""
 
     },
-    "StartDialog\0LoadFileButtonClicked\0"
+    "View_StartingGame\0LoadFileButtonClicked\0"
+    ""
 };
 #undef QT_MOC_LITERAL
 
-static const uint qt_meta_data_StartDialog[] = {
+static const uint qt_meta_data_View_StartingGame[] = {
 
  // content:
        8,       // revision
@@ -63,10 +64,10 @@ static const uint qt_meta_data_StartDialog[] = {
        0        // eod
 };
 
-void StartDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void View_StartingGame::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        auto *_t = static_cast<StartDialog *>(_o);
+        auto *_t = static_cast<View_StartingGame *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->LoadFileButtonClicked(); break;
@@ -76,30 +77,30 @@ void StartDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
     Q_UNUSED(_a);
 }
 
-QT_INIT_METAOBJECT const QMetaObject StartDialog::staticMetaObject = { {
+QT_INIT_METAOBJECT const QMetaObject View_StartingGame::staticMetaObject = { {
     QMetaObject::SuperData::link<QDialog::staticMetaObject>(),
-    qt_meta_stringdata_StartDialog.data,
-    qt_meta_data_StartDialog,
+    qt_meta_stringdata_View_StartingGame.data,
+    qt_meta_data_View_StartingGame,
     qt_static_metacall,
     nullptr,
     nullptr
 } };
 
 
-const QMetaObject *StartDialog::metaObject() const
+const QMetaObject *View_StartingGame::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *StartDialog::qt_metacast(const char *_clname)
+void *View_StartingGame::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_StartDialog.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_View_StartingGame.stringdata0))
         return static_cast<void*>(this);
     return QDialog::qt_metacast(_clname);
 }
 
-int StartDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int View_StartingGame::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QDialog::qt_metacall(_c, _id, _a);
     if (_id < 0)

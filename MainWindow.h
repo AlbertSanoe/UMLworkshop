@@ -9,7 +9,7 @@
 
 #include "Controller_Object.h"
 #include "Controller_View.h"
-
+#include "View_StartingGame.h"
 
 class MainWindow:public QMainWindow{
     Q_OBJECT
@@ -18,6 +18,7 @@ public:
     ~MainWindow();
 
 private:
+    View_StartingGame* StartingGame_View;
     Controller_Object* Object_Controller;
     Controller_View* View_Controller;
 };

@@ -195,7 +195,6 @@ D:/study/Clion_Document/UMLworkshop/cmake-build-debug/UMLworkshop_autogen/EWIEGA
   D:/out\ software/CLion\ 2021.3.4/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
   D:/out\ software/CLion\ 2021.3.4/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtCore/QTextStream \
-  D:/qt/creator/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtCore/qatomic.h \
@@ -241,7 +240,6 @@ D:/study/Clion_Document/UMLworkshop/cmake-build-debug/UMLworkshop_autogen/EWIEGA
   D:/qt/creator/5.15.2/mingw81_64/include/QtCore/qrect.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtCore/qregexp.h \
-  D:/qt/creator/5.15.2/mingw81_64/include/QtCore/qregularexpression.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtCore/qset.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
@@ -294,13 +292,10 @@ D:/study/Clion_Document/UMLworkshop/cmake-build-debug/UMLworkshop_autogen/EWIEGA
   D:/qt/creator/5.15.2/mingw81_64/include/QtGui/qtguiglobal.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtGui/qtransform.h \
-  D:/qt/creator/5.15.2/mingw81_64/include/QtGui/qvalidator.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/QApplication \
-  D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/QComboBox \
-  D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/QDialog \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/QGraphicsPixmapItem \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/QGraphicsRectItem \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/QGraphicsScene \
@@ -311,13 +306,9 @@ D:/study/Clion_Document/UMLworkshop/cmake-build-debug/UMLworkshop_autogen/EWIEGA
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/QPushButton \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/QVBoxLayout \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qabstractbutton.h \
-  D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qabstractitemdelegate.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qabstractscrollarea.h \
-  D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qabstractslider.h \
-  D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qabstractspinbox.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qboxlayout.h \
-  D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qcombobox.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qframe.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qgraphicsitem.h \
@@ -329,14 +320,8 @@ D:/study/Clion_Document/UMLworkshop/cmake-build-debug/UMLworkshop_autogen/EWIEGA
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qlayoutitem.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qpushbutton.h \
-  D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qrubberband.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qscrollarea.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
-  D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qslider.h \
-  D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qstyle.h \
-  D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qstyleoption.h \
-  D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qtabbar.h \
-  D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
@@ -351,5 +336,4 @@ D:/study/Clion_Document/UMLworkshop/cmake-build-debug/UMLworkshop_autogen/EWIEGA
   D:/study/Clion_Document/UMLworkshop/View_Square_Prison.h \
   D:/study/Clion_Document/UMLworkshop/View_Square_Start.h \
   D:/study/Clion_Document/UMLworkshop/View_Square_Tax.h \
-  D:/study/Clion_Document/UMLworkshop/View_Square_WithCard.h \
-  D:/study/Clion_Document/UMLworkshop/View_StartingGame.h
+  D:/study/Clion_Document/UMLworkshop/View_Square_WithCard.h

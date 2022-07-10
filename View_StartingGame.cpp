@@ -6,7 +6,7 @@
 
 #include <QFileDialog>
 
-StartDialog::StartDialog()
+View_StartingGame::View_StartingGame()
 {
     m_vLayout = new QVBoxLayout;
     m_okButton= new QPushButton("OK",this);
@@ -29,29 +29,29 @@ StartDialog::StartDialog()
     connect(m_loadFileButton, SIGNAL(clicked()), this, SLOT(LoadFileButtonClicked()));
 }
 
-StartDialog::~StartDialog()
+View_StartingGame::~View_StartingGame()
 {
     delete m_okButton;
     delete m_playerOptions;
     delete m_vLayout;
 }
 
-int StartDialog::GetSelectedValue()
+int View_StartingGame::GetSelectedValue()
 {
     return m_playerOptions->currentIndex()+2;
 }
 
-bool StartDialog::LoadFileSelected()
+bool View_StartingGame::LoadFileSelected()
 {
     return !m_loadFileName.isEmpty();
 }
 
-QString StartDialog::GetLoadFile()
+QString View_StartingGame::GetLoadFile()
 {
     return m_loadFileName;
 }
 
-void StartDialog::LoadFileButtonClicked()
+void View_StartingGame::LoadFileButtonClicked()
 {
 
     m_loadFileName = QFileDialog::getOpenFileName(this, "Load game");
@@ -59,7 +59,7 @@ void StartDialog::LoadFileButtonClicked()
     accept();
 }
 
-void StartDialog::AddPlayerOptions()
+void View_StartingGame::AddPlayerOptions()
 {
     QStringList list;
     list << "2" << "3" << "4" << "5" << "6" << "7" << "8";
