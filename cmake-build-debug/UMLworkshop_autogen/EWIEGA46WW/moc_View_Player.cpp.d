@@ -194,6 +194,7 @@ D:/study/Clion_Document/UMLworkshop/cmake-build-debug/UMLworkshop_autogen/EWIEGA
   D:/out\ software/CLion\ 2021.3.4/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
   D:/out\ software/CLion\ 2021.3.4/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
   D:/out\ software/CLion\ 2021.3.4/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
+  D:/qt/creator/5.15.2/mingw81_64/include/QtCore/QString \
   D:/qt/creator/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtCore/qatomic.h \
@@ -290,4 +291,5 @@ D:/study/Clion_Document/UMLworkshop/cmake-build-debug/UMLworkshop_autogen/EWIEGA
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
-  D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qwidget.h
+  D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
+  D:/study/Clion_Document/UMLworkshop/Card_Abstract.h

@@ -20,5 +20,7 @@ Controller_View::Controller_View(int Player_Number,Money Money_Initial, QWidget 
     }
 
     addWidget(Board_View);
+    Turn=new View_Turn;
+    QBoxLayout::addWidget(Turn);
 
 }

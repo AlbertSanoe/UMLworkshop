@@ -350,6 +350,7 @@ UMLworkshop_autogen/timestamp: \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/QPushButton \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/QVBoxLayout \
+  D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/QWidget \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qabstractbutton.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qabstractitemdelegate.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qabstractscrollarea.h \

@@ -8,6 +8,7 @@
 #include "View_Board.h"
 #include "Card_Abstract.h"
 #include "View_Player.h"
+#include "View_Turn.h"
 
 #include <QHBoxLayout>
 #include <QVBoxLayout>
@@ -21,6 +22,7 @@ private:
     View_Board* Board_View;
     QList<View_Player*> m_View_Players;
     QVBoxLayout* m_View_PlayerLayout;
+    View_Turn*Turn;
 
 public:
     explicit Controller_View(int Player_Number,Money Money_Initial,QWidget* parent);

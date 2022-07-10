@@ -4,3 +4,4 @@
 #include "EWIEGA46WW/moc_View_Board.cpp"
 #include "EWIEGA46WW/moc_View_Player.cpp"
 #include "EWIEGA46WW/moc_View_StartingGame.cpp"
+#include "EWIEGA46WW/moc_View_Turn.cpp"

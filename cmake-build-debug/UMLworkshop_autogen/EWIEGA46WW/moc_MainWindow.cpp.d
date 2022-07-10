@@ -329,6 +329,7 @@ D:/study/Clion_Document/UMLworkshop/cmake-build-debug/UMLworkshop_autogen/EWIEGA
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/QPushButton \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/QVBoxLayout \
+  D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/QWidget \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qabstractbutton.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qabstractitemdelegate.h \
   D:/qt/creator/5.15.2/mingw81_64/include/QtWidgets/qabstractscrollarea.h \
@@ -384,4 +385,5 @@ D:/study/Clion_Document/UMLworkshop/cmake-build-debug/UMLworkshop_autogen/EWIEGA
   D:/study/Clion_Document/UMLworkshop/View_Square_Start.h \
   D:/study/Clion_Document/UMLworkshop/View_Square_Tax.h \
   D:/study/Clion_Document/UMLworkshop/View_Square_WithCard.h \
-  D:/study/Clion_Document/UMLworkshop/View_StartingGame.h
+  D:/study/Clion_Document/UMLworkshop/View_StartingGame.h \
+  D:/study/Clion_Document/UMLworkshop/View_Turn.h
